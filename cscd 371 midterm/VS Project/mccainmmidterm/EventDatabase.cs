@@ -251,15 +251,16 @@ namespace mccainmmidterm {
 			string whereClause = "";
 			if (extList.Count <= 0) {
 				// if list is empty, grab all
-			}else{
+				return string.Format("SELECT * from {0};", currentTableName);
+			} else{
 				// surround and join
 				whereClause = "(itemType='";
 				whereClause += string.Join("')or(itemType='", extList);
 				whereClause += "')";
-			}
 
-			// generate final statement
-			return string.Format("SELECT * from {0} WHERE {1};", currentTableName, whereClause);
+				// generate final statement
+				return string.Format("SELECT * from {0} WHERE {1};", currentTableName, whereClause);
+			}
 		}
 
 		// parses reader into WatcherEventArgs
