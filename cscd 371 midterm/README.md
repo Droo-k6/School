@@ -1,4 +1,4 @@
-cscd 371 midterm project
+**cscd 371 midterm project**
 
 Project was to use .NET's FileSystemWatcher with windows forms to build a gui and offer user to log to a database using SQLite.
 
