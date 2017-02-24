@@ -91,23 +91,29 @@ SpotPreference for Airline system.
 Class used to just hold a time of day, used in trip.
 
  * **BaseTextInterface**
- Abstract class for base of a text interface, providing all functionality for text interface such as menu loop and calling appropriate commands from input. Child classes only need to implement a factory method to populate the commands list.
+Abstract class for base of a text interface, providing all functionality for text interface such as menu loop and calling appropriate commands from input. Child classes only need to implement a factory method to populate the commands list.
   * **SimpleTextInterface**
- A text interface/menu allowing ability to search flights/cruises, book seats/cabins with a preference or any available/specific seat, change prices of flight/cabin sections for a trip/flight, dump details of the system in a readable format to the console. As well as dump contents to a file that can be parsed back into a system later, or parse from a specific file.
+A text interface/menu allowing ability to search flights/cruises, book seats/cabins with a preference or any available/specific seat, change prices of flight/cabin sections for a trip/flight, dump details of the system in a readable format to the console. As well as dump contents to a file that can be parsed back into a system later, or parse from a specific file.
   * **AdminTextInterface**
 Text interface/menu allowind to create locations/trips/trip sections and display system information of both an Airline system and a Cruise system.
- 
 
  * **SystemToFromFile**
- * **Parser**
-  * **Various nested classes** All pertain to the state of the parsing loop, no reason to be public.
+Handles writing to/from files for system details. SystemManager will put its contents into its appropriate format and give to SystemToFromFile to write to. Parse will be called with the appropriate manager object and file contents to parse into.
 
- * **Various Exceptions** All exceptions for issues in the system, mainly for bad inputs.
+ * **Parser**
+Parses a given file contents into a given manager (using public calls).
+  * **Various nested classes** 
+  All pertain to the state of the parsing loop, no reason to be public.
+   * StateBase, StateEnd, StateLocations, StateProviders, StateProvidersBetween, StateProviderTransport, StateTripsBetween, StateTripID, StateTripDateYear, StateTripDateMonth, StateTripDateDay, StateTripDateHour, StateTripDateMinute, StateTripEndDateYear, StateTripEndDateMonth, StateTripEndDateDay, StateTripEndDateHour, StateTripEndDateMinute, StateTripLocation, StateTripSectionClass, StateTripSectionPrice, StateTripSectionLayout, StateTripSectionCount
+
+ * **Various Exceptions** All exceptions for issues in the system, mainly for bad inputs and providing a formatted message.
+   * FailedToCreateFile, InvalidCharacterRead, InvalidCharacterReadExpected, InvalidDay, InvalidLayoutColumn, InvalidLocationNameCharacter, InvalidLocationNameExists, InvalidLocationNameLength, InvalidMonth, InvalidNumberOfArguments, InvalidProviderNameCharacter, InvalidProviderNameExists, InvalidSpotClassName, InvalidSpotColumn, InvalidSpotLayoutClassName, InvalidSpotPrice, InvalidSpotRow, InvalidTimeHour, TransportDoesNotExist, TripDoesNotExist, TripSectionExists, InvalidTimeMinute, InvalidTransportNameCharacter, InvalidTransportNameExists, InvalidTransportNameLength, InvalidTripDates, InvalidTripIDCharacter, InvlaidTripIDExists, InvalidTripIDLength, InvalidTripPath, InvalidTripSectionCols, InvalidTripSectionRows, InvalidYear, LocationDoesNotExist, NoSpotsAvailable, NoTransportAvailable, ProviderDoesNotExist, SeatPrefNotHandled, SpotIsBooked, TransportNotAvailable, TripSectionDoesNotExist
 
 ---
 ***Reflection***
 
 The multiple exception classes are pointless, should remove all of them and just use the generic exceptions in the Java API. Their only real purpose is being pre-formated exceptions that don't need to be copy/pasted all over, but still could've employed a static class/methods to create the exception messages needed.
+The exceptions also expect raw values, because they were initially put into their own package - but I moved them to the main package because it didn't make sense to be in their own package. However I did not bother changing the exception constructors to take the actual objects instead of the raw values, so they are even more of a mess then they should be.
 
 Abstracted a bit too much in similarties between the AirlineSystemManager and CruiseSystemManager, the project offered extra credit if implemented a TrainSystemManager as well - but I chose not do. If did go through with the extra credit then the level of abstraction done could be justified, but as of right now its a little messy.
 Originally the first part of the project was just the AirlineSystemManager, then expanded to include CruiseSystemManager and ended up doing the whole combining both Systems into a similar abstraction. But it does work out, and can be expanded on.
