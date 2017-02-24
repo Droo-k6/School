@@ -118,6 +118,12 @@ Could be made to work with both g++/microsoft compiler so usable on both unix an
 **Socket Types**
 The current socket type is using SOCK_STREAM (TCP), but another type that exists in some unix distributions is SOCK_SEQPACKET which will seperate out each packet on its own unlike SOCK_STREAM which throws packets into a byte stream. Could be used to avoid using an ending sequence and length identifier to validate seperate packets.
 
+**Packets**
+Although the packets have a single byte for the length, and an ending sequence of bytes - there is not verification that the server/client received the whole packet - to indicate an error on the senders behalf (not fully sending or packet was build incorrectly). Adding a means to exchange/verify the packet was received would be redundant on top of TCP, and may not be worth implemeting TCP-like over a UDP socket.
+
+**Testing**
+Had no actual means to test for packet loss to verify the packet buffer/queueing worked fully as intended. Wouldn't be hard to artifically force through a customized client.
+
 **Restructure to work as DLL**
 Could be restructed to work as a DLL to work with a GUI, which could be easily used within C# to make the menus and wire in.
 
