@@ -116,7 +116,7 @@ Since there is a reliance on structures, c++ could be used without having to cha
 Could be made to work with both g++/microsoft compiler so usable on both unix and windows (in combination with preprocessor ifdef blocks to avoid using different code bases).
 
 **Socket Types**
-The current socket type is using SOCK_STREAM (TCP), but another type that exists in some unix distributions is SOCK_SEQPACKET which will seperate out each packet on its own unlike SOCK_STREAM which throws packets into a byte stream.
+The current socket type is using SOCK_STREAM (TCP), but another type that exists in some unix distributions is SOCK_SEQPACKET which will seperate out each packet on its own unlike SOCK_STREAM which throws packets into a byte stream. Could be used to avoid using an ending sequence and length identifier to validate seperate packets.
 
 **Restructure to work as DLL**
 Could be restructed to work as a DLL to work with a GUI, which could be easily used within C# to make the menus and wire in.
