@@ -1,0 +1,2083 @@
+
+...>java -cp bin cscd467.hw45.TestClientLoad 
+2017-07-27 19:25:31: Starting TestClientLoad
+2017-07-27 19:25:31: Waiting a bit for server startup
+2017-07-27 19:25:31: Setting up test server("TestClientLoad") on port 9898, 1 second worker delay
+2017-07-27 19:25:31: Server created
+2017-07-27 19:25:31: Starting server loop
+2017-07-27 19:25:31: Worker created
+2017-07-27 19:25:31: Worker created
+2017-07-27 19:25:31: Worker created
+2017-07-27 19:25:31: Worker created
+2017-07-27 19:25:31: Worker created
+2017-07-27 19:25:31: Pool: workers increased to 5
+2017-07-27 19:25:36: Starting job build up, max clients(50) total messages(500)2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Manager(threshhold 0): halfing worker count
+2017-07-27 19:25:36: Pool: not decreasing workers below minimum
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Worker(5): running job
+2017-07-27 19:25:36: Worker(4): running job
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Worker(3): running job
+2017-07-27 19:25:36: Worker(2): running job
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Worker(5): finished job
+2017-07-27 19:25:36: Worker(5): sleeping
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Worker(1): running job
+2017-07-27 19:25:36: Worker(2): finished job
+2017-07-27 19:25:36: Worker(2): sleeping
+2017-07-27 19:25:36: Worker(3): finished job
+2017-07-27 19:25:36: Worker(3): sleeping
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Worker(1): finished job
+2017-07-27 19:25:36: Worker(1): sleeping
+2017-07-27 19:25:36: Worker(4): finished job
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Worker(4): sleeping
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:36: Adding new connection
+2017-07-27 19:25:37: Worker(5): running job
+2017-07-27 19:25:37: Worker(5): finished job
+2017-07-27 19:25:37: Worker(5): sleeping
+2017-07-27 19:25:37: Worker(2): running job
+2017-07-27 19:25:37: Worker(2): finished job
+2017-07-27 19:25:37: Worker(2): sleeping
+2017-07-27 19:25:37: Worker(1): running job
+2017-07-27 19:25:37: Worker(1): finished job
+2017-07-27 19:25:37: Worker(1): sleeping
+2017-07-27 19:25:37: Worker(4): running job
+2017-07-27 19:25:37: Worker(4): finished job
+2017-07-27 19:25:37: Worker(4): sleeping
+2017-07-27 19:25:37: Worker(3): running job
+2017-07-27 19:25:37: Worker(3): finished job
+2017-07-27 19:25:37: Worker(3): sleeping
+2017-07-27 19:25:38: Worker(5): running job
+2017-07-27 19:25:38: Worker(5): finished job
+2017-07-27 19:25:38: Worker(5): sleeping
+2017-07-27 19:25:38: Worker(2): running job
+2017-07-27 19:25:38: Worker(2): finished job
+2017-07-27 19:25:38: Worker(2): sleeping
+2017-07-27 19:25:38: Worker(1): running job
+2017-07-27 19:25:38: Worker(1): finished job
+2017-07-27 19:25:38: Worker(1): sleeping
+2017-07-27 19:25:38: Worker(4): running job
+2017-07-27 19:25:38: Worker(4): finished job
+2017-07-27 19:25:38: Worker(4): sleeping
+2017-07-27 19:25:38: Worker(3): running job
+2017-07-27 19:25:38: Worker(3): finished job
+2017-07-27 19:25:38: Worker(3): sleeping
+2017-07-27 19:25:39: Worker(5): running job
+2017-07-27 19:25:39: Worker(5): finished job
+2017-07-27 19:25:39: Worker(5): sleeping
+2017-07-27 19:25:39: Worker(2): running job
+2017-07-27 19:25:39: Worker(2): finished job
+2017-07-27 19:25:39: Worker(2): sleeping
+2017-07-27 19:25:39: Worker(1): running job
+2017-07-27 19:25:39: Worker(1): finished job
+2017-07-27 19:25:39: Worker(1): sleeping
+2017-07-27 19:25:39: Worker(4): running job
+2017-07-27 19:25:39: Worker(4): finished job
+2017-07-27 19:25:39: Worker(4): sleeping
+2017-07-27 19:25:39: Worker(3): running job
+2017-07-27 19:25:39: Worker(3): finished job
+2017-07-27 19:25:39: Worker(3): sleeping
+2017-07-27 19:25:40: Worker(5): running job
+2017-07-27 19:25:40: Worker(5): finished job
+2017-07-27 19:25:40: Worker(5): sleeping
+2017-07-27 19:25:40: Worker(2): running job
+2017-07-27 19:25:40: Worker(2): finished job
+2017-07-27 19:25:40: Worker(2): sleeping
+2017-07-27 19:25:40: Worker(1): running job
+2017-07-27 19:25:40: Worker(1): finished job
+2017-07-27 19:25:40: Worker(1): sleeping
+2017-07-27 19:25:40: Worker(4): running job
+2017-07-27 19:25:40: Worker(4): finished job
+2017-07-27 19:25:40: Worker(4): sleeping
+2017-07-27 19:25:40: Worker(3): running job
+2017-07-27 19:25:40: Worker(3): finished job
+2017-07-27 19:25:40: Worker(3): sleeping
+2017-07-27 19:25:41: Manager(threshhold 0 to 1): doubling worker count
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Worker(6): running job
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Worker(7): running job
+2017-07-27 19:25:41: Worker(8): running job
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Worker(6): finished job
+2017-07-27 19:25:41: Worker(6): sleeping
+2017-07-27 19:25:41: Worker(9): running job
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Worker(8): finished job
+2017-07-27 19:25:41: Worker(8): sleeping
+2017-07-27 19:25:41: Worker(7): finished job
+2017-07-27 19:25:41: Worker(7): sleeping
+2017-07-27 19:25:41: Worker(3): running job
+2017-07-27 19:25:41: Worker(2): running job
+2017-07-27 19:25:41: Worker(5): running job
+2017-07-27 19:25:41: Worker(10): running job
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Worker(9): finished job
+2017-07-27 19:25:41: Worker(9): sleeping
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Worker(5): finished job
+2017-07-27 19:25:41: Worker(5): sleeping
+2017-07-27 19:25:41: Worker(10): finished job
+2017-07-27 19:25:41: Worker(10): sleeping
+2017-07-27 19:25:41: Worker(2): finished job
+2017-07-27 19:25:41: Worker(2): sleeping
+2017-07-27 19:25:41: Worker(3): finished job
+2017-07-27 19:25:41: Worker(3): sleeping
+2017-07-27 19:25:41: Worker(4): running job
+2017-07-27 19:25:41: Worker(1): running job
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Worker created
+2017-07-27 19:25:41: Pool: workers increased to 15
+2017-07-27 19:25:41: Worker(12): running job
+2017-07-27 19:25:41: Worker(11): running job
+2017-07-27 19:25:41: Worker(4): finished job
+2017-07-27 19:25:41: Worker(4): sleeping
+2017-07-27 19:25:41: Worker(1): finished job
+2017-07-27 19:25:41: Worker(1): sleeping
+2017-07-27 19:25:41: Worker(13): running job
+2017-07-27 19:25:41: Worker(12): finished job
+2017-07-27 19:25:41: Worker(12): sleeping
+2017-07-27 19:25:41: Worker(11): finished job
+2017-07-27 19:25:41: Worker(11): sleeping
+2017-07-27 19:25:41: Worker(15): running job
+2017-07-27 19:25:41: Worker(13): finished job
+2017-07-27 19:25:41: Worker(13): sleeping
+2017-07-27 19:25:41: Worker(15): finished job
+2017-07-27 19:25:41: Worker(15): sleeping
+2017-07-27 19:25:41: Worker(14): running job
+2017-07-27 19:25:41: Worker(14): finished job
+2017-07-27 19:25:41: Worker(14): sleeping
+2017-07-27 19:25:42: Worker(8): running job
+2017-07-27 19:25:42: Worker(6): running job
+2017-07-27 19:25:42: Worker(8): finished job
+2017-07-27 19:25:42: Worker(6): finished job
+2017-07-27 19:25:42: Worker(6): sleeping
+2017-07-27 19:25:42: Worker(8): sleeping
+2017-07-27 19:25:42: Worker(7): running job
+2017-07-27 19:25:42: Worker(7): finished job
+2017-07-27 19:25:42: Worker(7): sleeping
+2017-07-27 19:25:42: Worker(5): running job
+2017-07-27 19:25:42: Worker(9): running job
+2017-07-27 19:25:42: Worker(5): finished job
+2017-07-27 19:25:42: Worker(5): sleeping
+2017-07-27 19:25:42: Worker(9): finished job
+2017-07-27 19:25:42: Worker(9): sleeping
+2017-07-27 19:25:42: Worker(10): running job
+2017-07-27 19:25:42: Worker(2): running job
+2017-07-27 19:25:42: Worker(2): finished job
+2017-07-27 19:25:42: Worker(2): sleeping
+2017-07-27 19:25:42: Worker(3): running job
+2017-07-27 19:25:42: Worker(10): finished job
+2017-07-27 19:25:42: Worker(10): sleeping
+2017-07-27 19:25:42: Worker(3): finished job
+2017-07-27 19:25:42: Worker(3): sleeping
+2017-07-27 19:25:42: Worker(4): running job
+2017-07-27 19:25:42: Worker(1): running job
+2017-07-27 19:25:42: Worker(4): finished job
+2017-07-27 19:25:42: Worker(1): finished job
+2017-07-27 19:25:42: Worker(4): sleeping
+2017-07-27 19:25:42: Worker(1): sleeping
+2017-07-27 19:25:42: Worker(11): running job
+2017-07-27 19:25:42: Worker(12): running job
+2017-07-27 19:25:42: Worker(11): finished job
+2017-07-27 19:25:42: Worker(11): sleeping
+2017-07-27 19:25:42: Worker(12): finished job
+2017-07-27 19:25:42: Worker(12): sleeping
+2017-07-27 19:25:42: Worker(13): running job
+2017-07-27 19:25:42: Worker(13): finished job
+2017-07-27 19:25:42: Worker(13): sleeping
+2017-07-27 19:25:42: Worker(15): running job
+2017-07-27 19:25:42: Worker(15): finished job
+2017-07-27 19:25:42: Worker(15): sleeping
+2017-07-27 19:25:42: Worker(14): running job
+2017-07-27 19:25:42: Worker(14): finished job
+2017-07-27 19:25:42: Worker(14): sleeping
+2017-07-27 19:25:43: Worker(6): running job
+2017-07-27 19:25:43: Worker(8): running job
+2017-07-27 19:25:43: Worker(6): finished job
+2017-07-27 19:25:43: Worker(8): finished job
+2017-07-27 19:25:43: Worker(6): sleeping
+2017-07-27 19:25:43: Worker(8): sleeping
+2017-07-27 19:25:43: Worker(7): running job
+2017-07-27 19:25:43: Worker(7): finished job
+2017-07-27 19:25:43: Worker(7): sleeping
+2017-07-27 19:25:43: Worker(5): running job
+2017-07-27 19:25:43: Worker(9): running job
+2017-07-27 19:25:43: Worker(9): finished job
+2017-07-27 19:25:43: Worker(9): sleeping
+2017-07-27 19:25:43: Worker(5): finished job
+2017-07-27 19:25:43: Worker(5): sleeping
+2017-07-27 19:25:43: Worker(2): running job
+2017-07-27 19:25:43: Worker(10): running job
+2017-07-27 19:25:43: Worker(2): finished job
+2017-07-27 19:25:43: Worker(2): sleeping
+2017-07-27 19:25:43: Worker(10): finished job
+2017-07-27 19:25:43: Worker(10): sleeping
+2017-07-27 19:25:43: Worker(3): running job
+2017-07-27 19:25:43: Worker(3): finished job
+2017-07-27 19:25:43: Worker(3): sleeping
+2017-07-27 19:25:43: Worker(1): running job
+2017-07-27 19:25:43: Worker(4): running job
+2017-07-27 19:25:43: Worker(4): finished job
+2017-07-27 19:25:43: Worker(4): sleeping
+2017-07-27 19:25:43: Worker(1): finished job
+2017-07-27 19:25:43: Worker(1): sleeping
+2017-07-27 19:25:43: Worker(12): running job
+2017-07-27 19:25:43: Worker(11): running job
+2017-07-27 19:25:43: Worker(12): finished job
+2017-07-27 19:25:43: Worker(12): sleeping
+2017-07-27 19:25:43: Worker(11): finished job
+2017-07-27 19:25:43: Worker(11): sleeping
+2017-07-27 19:25:43: Worker(13): running job
+2017-07-27 19:25:43: Worker(13): finished job
+2017-07-27 19:25:43: Worker(13): sleeping
+2017-07-27 19:25:43: Worker(15): running job
+2017-07-27 19:25:43: Worker(15): finished job
+2017-07-27 19:25:43: Worker(15): sleeping
+2017-07-27 19:25:43: Worker(14): running job
+2017-07-27 19:25:43: Worker(14): finished job
+2017-07-27 19:25:43: Worker(14): sleeping
+2017-07-27 19:25:44: Worker(6): running job
+2017-07-27 19:25:44: Worker(8): running job
+2017-07-27 19:25:44: Worker(6): finished job
+2017-07-27 19:25:44: Worker(8): finished job
+2017-07-27 19:25:44: Worker(6): sleeping
+2017-07-27 19:25:44: Worker(8): sleeping
+2017-07-27 19:25:44: Worker(7): running job
+2017-07-27 19:25:44: Worker(7): finished job
+2017-07-27 19:25:44: Worker(7): sleeping
+2017-07-27 19:25:44: Worker(9): running job
+2017-07-27 19:25:44: Worker(9): finished job
+2017-07-27 19:25:44: Worker(9): sleeping
+2017-07-27 19:25:44: Worker(10): running job
+2017-07-27 19:25:44: Worker(5): running job
+2017-07-27 19:25:44: Worker(2): running job
+2017-07-27 19:25:44: Worker(2): finished job
+2017-07-27 19:25:44: Worker(2): sleeping
+2017-07-27 19:25:44: Worker(5): finished job
+2017-07-27 19:25:44: Worker(5): sleeping
+2017-07-27 19:25:44: Worker(10): finished job
+2017-07-27 19:25:44: Worker(10): sleeping
+2017-07-27 19:25:44: Worker(3): running job
+2017-07-27 19:25:44: Worker(3): finished job
+2017-07-27 19:25:44: Worker(3): sleeping
+2017-07-27 19:25:44: Worker(1): running job
+2017-07-27 19:25:44: Worker(4): running job
+2017-07-27 19:25:44: Worker(1): finished job
+2017-07-27 19:25:44: Worker(4): finished job
+2017-07-27 19:25:44: Worker(1): sleeping
+2017-07-27 19:25:44: Worker(4): sleeping
+2017-07-27 19:25:44: Worker(12): running job
+2017-07-27 19:25:44: Worker(12): finished job
+2017-07-27 19:25:44: Worker(12): sleeping
+2017-07-27 19:25:44: Worker(13): running job
+2017-07-27 19:25:44: Worker(11): running job
+2017-07-27 19:25:44: Worker(13): finished job
+2017-07-27 19:25:44: Worker(13): sleeping
+2017-07-27 19:25:44: Worker(11): finished job
+2017-07-27 19:25:44: Worker(11): sleeping
+2017-07-27 19:25:44: Worker(15): running job
+2017-07-27 19:25:44: Worker(15): finished job
+2017-07-27 19:25:44: Worker(15): sleeping
+2017-07-27 19:25:44: Worker(14): running job
+2017-07-27 19:25:44: Worker(14): finished job
+2017-07-27 19:25:44: Worker(14): sleeping
+2017-07-27 19:25:45: Worker(8): running job
+2017-07-27 19:25:45: Worker(6): running job
+2017-07-27 19:25:45: Worker(8): finished job
+2017-07-27 19:25:45: Worker(8): sleeping
+2017-07-27 19:25:45: Worker(6): finished job
+2017-07-27 19:25:45: Worker(6): sleeping
+2017-07-27 19:25:45: Worker(7): running job
+2017-07-27 19:25:45: Worker(7): finished job
+2017-07-27 19:25:45: Worker(7): sleeping
+2017-07-27 19:25:45: Worker(9): running job
+2017-07-27 19:25:45: Worker(9): finished job
+2017-07-27 19:25:45: Worker(9): sleeping
+2017-07-27 19:25:45: Worker(5): running job
+2017-07-27 19:25:45: Worker(2): running job
+2017-07-27 19:25:45: Worker(2): finished job
+2017-07-27 19:25:45: Worker(2): sleeping
+2017-07-27 19:25:45: Worker(5): finished job
+2017-07-27 19:25:45: Worker(5): sleeping
+2017-07-27 19:25:45: Worker(10): running job
+2017-07-27 19:25:45: Worker(10): finished job
+2017-07-27 19:25:45: Worker(10): sleeping
+2017-07-27 19:25:45: Worker(3): running job
+2017-07-27 19:25:45: Worker(3): finished job
+2017-07-27 19:25:45: Worker(3): sleeping
+2017-07-27 19:25:45: Worker(1): running job
+2017-07-27 19:25:45: Worker(1): finished job
+2017-07-27 19:25:45: Worker(1): sleeping
+2017-07-27 19:25:45: Worker(4): running job
+2017-07-27 19:25:45: Worker(4): finished job
+2017-07-27 19:25:45: Worker(4): sleeping
+2017-07-27 19:25:45: Worker(13): running job
+2017-07-27 19:25:45: Worker(13): finished job
+2017-07-27 19:25:45: Worker(13): sleeping
+2017-07-27 19:25:45: Worker(12): running job
+2017-07-27 19:25:45: Worker(12): finished job
+2017-07-27 19:25:45: Worker(12): sleeping
+2017-07-27 19:25:45: Worker(11): running job
+2017-07-27 19:25:45: Worker(11): finished job
+2017-07-27 19:25:45: Worker(11): sleeping
+2017-07-27 19:25:45: Worker(15): running job
+2017-07-27 19:25:45: Worker(15): finished job
+2017-07-27 19:25:45: Worker(15): sleeping
+2017-07-27 19:25:45: Worker(14): running job
+2017-07-27 19:25:45: Worker(14): finished job
+2017-07-27 19:25:45: Worker(14): sleeping
+2017-07-27 19:25:46: Manager(threshhold 1 to 2): doubling worker count
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(17): running job
+2017-07-27 19:25:46: Worker(16): running job
+2017-07-27 19:25:46: Worker(18): running job
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(18): finished job
+2017-07-27 19:25:46: Worker(16): finished job
+2017-07-27 19:25:46: Worker(16): sleeping
+2017-07-27 19:25:46: Worker(17): finished job
+2017-07-27 19:25:46: Worker(17): sleeping
+2017-07-27 19:25:46: Worker(18): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(20): running job
+2017-07-27 19:25:46: Worker(21): running job
+2017-07-27 19:25:46: Worker(21): finished job
+2017-07-27 19:25:46: Worker(21): sleeping
+2017-07-27 19:25:46: Worker(19): running job
+2017-07-27 19:25:46: Worker(22): running job
+2017-07-27 19:25:46: Worker(19): finished job
+2017-07-27 19:25:46: Worker(19): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(20): finished job
+2017-07-27 19:25:46: Worker(20): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(24): running job
+2017-07-27 19:25:46: Worker(22): finished job
+2017-07-27 19:25:46: Worker(22): sleeping
+2017-07-27 19:25:46: Worker(26): running job
+2017-07-27 19:25:46: Worker(26): finished job
+2017-07-27 19:25:46: Worker(26): sleeping
+2017-07-27 19:25:46: Worker(6): running job
+2017-07-27 19:25:46: Worker(6): finished job
+2017-07-27 19:25:46: Worker(6): sleeping
+2017-07-27 19:25:46: Worker(25): running job
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(25): finished job
+2017-07-27 19:25:46: Worker(25): sleeping
+2017-07-27 19:25:46: Worker(24): finished job
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(24): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(23): running job
+2017-07-27 19:25:46: Worker(23): finished job
+2017-07-27 19:25:46: Worker(23): sleeping
+2017-07-27 19:25:46: Worker(8): running job
+2017-07-27 19:25:46: Worker(8): finished job
+2017-07-27 19:25:46: Worker(8): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(27): running job
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(27): finished job
+2017-07-27 19:25:46: Worker(27): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(28): running job
+2017-07-27 19:25:46: Worker(31): running job
+2017-07-27 19:25:46: Worker(31): finished job
+2017-07-27 19:25:46: Worker(29): running job
+2017-07-27 19:25:46: Worker(30): running job
+2017-07-27 19:25:46: Worker(29): finished job
+2017-07-27 19:25:46: Worker(31): sleeping
+2017-07-27 19:25:46: Worker(28): finished job
+2017-07-27 19:25:46: Worker(28): sleeping
+2017-07-27 19:25:46: Worker(34): running job
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(33): running job
+2017-07-27 19:25:46: Worker(32): running job
+2017-07-27 19:25:46: Worker(32): finished job
+2017-07-27 19:25:46: Worker(32): sleeping
+2017-07-27 19:25:46: Worker(35): running job
+2017-07-27 19:25:46: Worker(33): finished job
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(34): finished job
+2017-07-27 19:25:46: Worker(29): sleeping
+2017-07-27 19:25:46: Worker(30): finished job
+2017-07-27 19:25:46: Worker(30): sleeping
+2017-07-27 19:25:46: Worker(36): running job
+2017-07-27 19:25:46: Worker(34): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(33): sleeping
+2017-07-27 19:25:46: Worker(35): finished job
+2017-07-27 19:25:46: Worker(35): sleeping
+2017-07-27 19:25:46: Worker(37): running job
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(36): finished job
+2017-07-27 19:25:46: Worker(36): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(37): finished job
+2017-07-27 19:25:46: Worker(37): sleeping
+2017-07-27 19:25:46: Worker(39): running job
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(39): finished job
+2017-07-27 19:25:46: Worker(39): sleeping
+2017-07-27 19:25:46: Worker(38): running job
+2017-07-27 19:25:46: Worker(38): finished job
+2017-07-27 19:25:46: Worker(38): sleeping
+2017-07-27 19:25:46: Worker(41): running job
+2017-07-27 19:25:46: Worker(42): running job
+2017-07-27 19:25:46: Worker(40): running job
+2017-07-27 19:25:46: Worker(42): finished job
+2017-07-27 19:25:46: Worker(42): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(40): finished job
+2017-07-27 19:25:46: Worker(40): sleeping
+2017-07-27 19:25:46: Worker(41): finished job
+2017-07-27 19:25:46: Worker(41): sleeping
+2017-07-27 19:25:46: Worker(43): running job
+2017-07-27 19:25:46: Worker(43): finished job
+2017-07-27 19:25:46: Worker(43): sleeping
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker created
+2017-07-27 19:25:46: Worker(44): running job
+2017-07-27 19:25:46: Pool: workers increased to 45
+2017-07-27 19:25:46: Worker(44): finished job
+2017-07-27 19:25:46: Worker(44): sleeping
+2017-07-27 19:25:46: Worker(45): running job
+2017-07-27 19:25:46: Worker(45): finished job
+2017-07-27 19:25:46: Worker(45): sleeping
+2017-07-27 19:25:46: Worker(7): running job
+2017-07-27 19:25:46: Worker(7): finished job
+2017-07-27 19:25:46: Worker(7): sleeping
+2017-07-27 19:25:46: Worker(9): running job
+2017-07-27 19:25:46: Worker(9): finished job
+2017-07-27 19:25:46: Worker(9): sleeping
+2017-07-27 19:25:46: Worker(5): running job
+2017-07-27 19:25:46: Worker(2): running job
+2017-07-27 19:25:46: Worker(5): finished job
+2017-07-27 19:25:46: Worker(2): finished job
+2017-07-27 19:25:46: Worker(2): sleeping
+2017-07-27 19:25:46: Worker(5): sleeping
+2017-07-27 19:25:46: Worker(10): running job
+2017-07-27 19:25:46: Worker(10): finished job
+2017-07-27 19:25:46: Worker(10): sleeping
+2017-07-27 19:25:46: Worker(3): running job
+2017-07-27 19:25:46: Worker(3): finished job
+2017-07-27 19:25:46: Worker(3): sleeping
+2017-07-27 19:25:46: Worker(1): running job
+2017-07-27 19:25:46: Worker(1): finished job
+2017-07-27 19:25:46: Worker(1): sleeping
+2017-07-27 19:25:46: Worker(4): running job
+2017-07-27 19:25:46: Worker(4): finished job
+2017-07-27 19:25:46: Worker(4): sleeping
+2017-07-27 19:25:46: Worker(13): running job
+2017-07-27 19:25:46: Worker(13): finished job
+2017-07-27 19:25:46: Worker(13): sleeping
+2017-07-27 19:25:46: Worker(12): running job
+2017-07-27 19:25:46: Worker(12): finished job
+2017-07-27 19:25:46: Worker(12): sleeping
+2017-07-27 19:25:46: Worker(11): running job
+2017-07-27 19:25:46: Worker(11): finished job
+2017-07-27 19:25:46: Worker(11): sleeping
+2017-07-27 19:25:46: Worker(15): running job
+2017-07-27 19:25:46: Worker(15): finished job
+2017-07-27 19:25:46: Worker(15): sleeping
+2017-07-27 19:25:46: Worker(14): running job
+2017-07-27 19:25:46: Worker(14): finished job
+2017-07-27 19:25:46: Worker(14): sleeping
+2017-07-27 19:25:47: Worker(17): running job
+2017-07-27 19:25:47: Worker(16): running job
+2017-07-27 19:25:47: Worker(18): running job
+2017-07-27 19:25:47: Worker(17): finished job
+2017-07-27 19:25:47: Worker(17): sleeping
+2017-07-27 19:25:47: Worker(16): finished job
+2017-07-27 19:25:47: Worker(18): finished job
+2017-07-27 19:25:47: Worker(18): sleeping
+2017-07-27 19:25:47: Worker(16): sleeping
+2017-07-27 19:25:47: Worker(21): running job
+2017-07-27 19:25:47: Worker(21): finished job
+2017-07-27 19:25:47: Worker(21): sleeping
+2017-07-27 19:25:47: Worker(19): running job
+2017-07-27 19:25:47: Worker(19): finished job
+2017-07-27 19:25:47: Worker(19): sleeping
+2017-07-27 19:25:47: Worker(20): running job
+2017-07-27 19:25:47: Worker(22): running job
+2017-07-27 19:25:47: Worker(20): finished job
+2017-07-27 19:25:47: Worker(22): finished job
+2017-07-27 19:25:47: Worker(22): sleeping
+2017-07-27 19:25:47: Worker(20): sleeping
+2017-07-27 19:25:47: Worker(25): running job
+2017-07-27 19:25:47: Worker(26): running job
+2017-07-27 19:25:47: Worker(6): running job
+2017-07-27 19:25:47: Worker(24): running job
+2017-07-27 19:25:47: Worker(6): finished job
+2017-07-27 19:25:47: Worker(6): sleeping
+2017-07-27 19:25:47: Worker(26): finished job
+2017-07-27 19:25:47: Worker(25): finished job
+2017-07-27 19:25:47: Worker(26): sleeping
+2017-07-27 19:25:47: Worker(24): finished job
+2017-07-27 19:25:47: Worker(24): sleeping
+2017-07-27 19:25:47: Worker(25): sleeping
+2017-07-27 19:25:47: Worker(23): running job
+2017-07-27 19:25:47: Worker(23): finished job
+2017-07-27 19:25:47: Worker(23): sleeping
+2017-07-27 19:25:47: Worker(27): running job
+2017-07-27 19:25:47: Worker(8): running job
+2017-07-27 19:25:47: Worker(27): finished job
+2017-07-27 19:25:47: Worker(27): sleeping
+2017-07-27 19:25:47: Worker(8): finished job
+2017-07-27 19:25:47: Worker(8): sleeping
+2017-07-27 19:25:47: Worker(28): running job
+2017-07-27 19:25:47: Worker(31): running job
+2017-07-27 19:25:47: Worker(28): finished job
+2017-07-27 19:25:47: Worker(31): finished job
+2017-07-27 19:25:47: Worker(31): sleeping
+2017-07-27 19:25:47: Worker(28): sleeping
+2017-07-27 19:25:47: Worker(29): running job
+2017-07-27 19:25:47: Worker(32): running job
+2017-07-27 19:25:47: Worker(30): running job
+2017-07-27 19:25:47: Worker(34): running job
+2017-07-27 19:25:47: Worker(33): running job
+2017-07-27 19:25:47: Worker(34): finished job
+2017-07-27 19:25:47: Worker(34): sleeping
+2017-07-27 19:25:47: Worker(30): finished job
+2017-07-27 19:25:47: Worker(32): finished job
+2017-07-27 19:25:47: Worker(32): sleeping
+2017-07-27 19:25:47: Worker(29): finished job
+2017-07-27 19:25:47: Worker(30): sleeping
+2017-07-27 19:25:47: Worker(33): finished job
+2017-07-27 19:25:47: Worker(33): sleeping
+2017-07-27 19:25:47: Worker(29): sleeping
+2017-07-27 19:25:47: Worker(36): running job
+2017-07-27 19:25:47: Worker(37): running job
+2017-07-27 19:25:47: Worker(35): running job
+2017-07-27 19:25:47: Worker(37): finished job
+2017-07-27 19:25:47: Worker(35): finished job
+2017-07-27 19:25:47: Worker(35): sleeping
+2017-07-27 19:25:47: Worker(36): finished job
+2017-07-27 19:25:47: Worker(36): sleeping
+2017-07-27 19:25:47: Worker(37): sleeping
+2017-07-27 19:25:47: Worker(39): running job
+2017-07-27 19:25:47: Worker(39): finished job
+2017-07-27 19:25:47: Worker(39): sleeping
+2017-07-27 19:25:47: Worker(40): running job
+2017-07-27 19:25:47: Worker(38): running job
+2017-07-27 19:25:47: Worker(40): finished job
+2017-07-27 19:25:47: Worker(42): running job
+2017-07-27 19:25:47: Worker(40): sleeping
+2017-07-27 19:25:47: Worker(38): finished job
+2017-07-27 19:25:47: Worker(38): sleeping
+2017-07-27 19:25:47: Worker(42): finished job
+2017-07-27 19:25:47: Worker(42): sleeping
+2017-07-27 19:25:47: Worker(41): running job
+2017-07-27 19:25:47: Worker(41): finished job
+2017-07-27 19:25:47: Worker(41): sleeping
+2017-07-27 19:25:47: Worker(43): running job
+2017-07-27 19:25:47: Worker(43): finished job
+2017-07-27 19:25:47: Worker(43): sleeping
+2017-07-27 19:25:47: Worker(44): running job
+2017-07-27 19:25:47: Worker(44): finished job
+2017-07-27 19:25:47: Worker(44): sleeping
+2017-07-27 19:25:47: Worker(45): running job
+2017-07-27 19:25:47: Worker(45): finished job
+2017-07-27 19:25:47: Worker(45): sleeping
+2017-07-27 19:25:47: Worker(7): running job
+2017-07-27 19:25:47: Worker(7): finished job
+2017-07-27 19:25:47: Worker(7): sleeping
+2017-07-27 19:25:47: Worker(9): running job
+2017-07-27 19:25:47: Worker(9): finished job
+2017-07-27 19:25:47: Worker(9): sleeping
+2017-07-27 19:25:47: Worker(5): running job
+2017-07-27 19:25:47: Worker(5): finished job
+2017-07-27 19:25:47: Worker(5): sleeping
+2017-07-27 19:25:47: Worker(2): running job
+2017-07-27 19:25:47: Worker(2): finished job
+2017-07-27 19:25:47: Worker(2): sleeping
+2017-07-27 19:25:47: Worker(10): running job
+2017-07-27 19:25:47: Worker(10): finished job
+2017-07-27 19:25:47: Worker(10): sleeping
+2017-07-27 19:25:47: Worker(3): running job
+2017-07-27 19:25:47: Worker(3): finished job
+2017-07-27 19:25:47: Worker(3): sleeping
+2017-07-27 19:25:47: Worker(1): running job
+2017-07-27 19:25:47: Worker(1): finished job
+2017-07-27 19:25:47: Worker(1): sleeping
+2017-07-27 19:25:47: Worker(4): running job
+2017-07-27 19:25:47: Worker(4): finished job
+2017-07-27 19:25:47: Worker(4): sleeping
+2017-07-27 19:25:47: Worker(13): running job
+2017-07-27 19:25:47: Worker(13): finished job
+2017-07-27 19:25:47: Worker(13): sleeping
+2017-07-27 19:25:47: Worker(12): running job
+2017-07-27 19:25:47: Worker(12): finished job
+2017-07-27 19:25:47: Worker(12): sleeping
+2017-07-27 19:25:47: Worker(11): running job
+2017-07-27 19:25:47: Worker(11): finished job
+2017-07-27 19:25:47: Worker(11): sleeping
+2017-07-27 19:25:47: Worker(15): running job
+2017-07-27 19:25:47: Worker(15): finished job
+2017-07-27 19:25:47: Worker(15): sleeping
+2017-07-27 19:25:47: Worker(14): running job
+2017-07-27 19:25:47: Worker(14): finished job
+2017-07-27 19:25:47: Worker(14): sleeping
+2017-07-27 19:25:48: Worker(17): running job
+2017-07-27 19:25:48: Worker(16): running job
+2017-07-27 19:25:48: Worker(18): running job
+2017-07-27 19:25:48: Worker(17): finished job
+2017-07-27 19:25:48: Worker(17): sleeping
+2017-07-27 19:25:48: Worker(18): finished job
+2017-07-27 19:25:48: Worker(16): finished job
+2017-07-27 19:25:48: Worker(16): sleeping
+2017-07-27 19:25:48: Worker(18): sleeping
+2017-07-27 19:25:48: Worker(21): running job
+2017-07-27 19:25:48: Worker(21): finished job
+2017-07-27 19:25:48: Worker(21): sleeping
+2017-07-27 19:25:48: Worker(19): running job
+2017-07-27 19:25:48: Worker(19): finished job
+2017-07-27 19:25:48: Worker(19): sleeping
+2017-07-27 19:25:48: Worker(20): running job
+2017-07-27 19:25:48: Worker(22): running job
+2017-07-27 19:25:48: Worker(20): finished job
+2017-07-27 19:25:48: Worker(22): finished job
+2017-07-27 19:25:48: Worker(22): sleeping
+2017-07-27 19:25:48: Worker(20): sleeping
+2017-07-27 19:25:48: Worker(6): running job
+2017-07-27 19:25:48: Worker(25): running job
+2017-07-27 19:25:48: Worker(26): running job
+2017-07-27 19:25:48: Worker(24): running job
+2017-07-27 19:25:48: Worker(6): finished job
+2017-07-27 19:25:48: Worker(6): sleeping
+2017-07-27 19:25:48: Worker(24): finished job
+2017-07-27 19:25:48: Worker(24): sleeping
+2017-07-27 19:25:48: Worker(26): finished job
+2017-07-27 19:25:48: Worker(26): sleeping
+2017-07-27 19:25:48: Worker(25): finished job
+2017-07-27 19:25:48: Worker(25): sleeping
+2017-07-27 19:25:48: Worker(23): running job
+2017-07-27 19:25:48: Worker(23): finished job
+2017-07-27 19:25:48: Worker(23): sleeping
+2017-07-27 19:25:48: Worker(8): running job
+2017-07-27 19:25:48: Worker(8): finished job
+2017-07-27 19:25:48: Worker(8): sleeping
+2017-07-27 19:25:48: Worker(27): running job
+2017-07-27 19:25:48: Worker(27): finished job
+2017-07-27 19:25:48: Worker(27): sleeping
+2017-07-27 19:25:48: Worker(31): running job
+2017-07-27 19:25:48: Worker(31): finished job
+2017-07-27 19:25:48: Worker(31): sleeping
+2017-07-27 19:25:48: Worker(28): running job
+2017-07-27 19:25:48: Worker(28): finished job
+2017-07-27 19:25:48: Worker(28): sleeping
+2017-07-27 19:25:48: Worker(30): running job
+2017-07-27 19:25:48: Worker(32): running job
+2017-07-27 19:25:48: Worker(32): finished job
+2017-07-27 19:25:48: Worker(32): sleeping
+2017-07-27 19:25:48: Worker(30): finished job
+2017-07-27 19:25:48: Worker(33): running job
+2017-07-27 19:25:48: Worker(34): running job
+2017-07-27 19:25:48: Worker(30): sleeping
+2017-07-27 19:25:48: Worker(29): running job
+2017-07-27 19:25:48: Worker(34): finished job
+2017-07-27 19:25:48: Worker(34): sleeping
+2017-07-27 19:25:48: Worker(33): finished job
+2017-07-27 19:25:48: Worker(29): finished job
+2017-07-27 19:25:48: Worker(29): sleeping
+2017-07-27 19:25:48: Worker(33): sleeping
+2017-07-27 19:25:48: Worker(37): running job
+2017-07-27 19:25:48: Worker(35): running job
+2017-07-27 19:25:48: Worker(36): running job
+2017-07-27 19:25:48: Worker(35): finished job
+2017-07-27 19:25:48: Worker(35): sleeping
+2017-07-27 19:25:48: Worker(37): finished job
+2017-07-27 19:25:48: Worker(37): sleeping
+2017-07-27 19:25:48: Worker(36): finished job
+2017-07-27 19:25:48: Worker(36): sleeping
+2017-07-27 19:25:48: Worker(39): running job
+2017-07-27 19:25:48: Worker(39): finished job
+2017-07-27 19:25:48: Worker(39): sleeping
+2017-07-27 19:25:48: Worker(40): running job
+2017-07-27 19:25:48: Worker(40): finished job
+2017-07-27 19:25:48: Worker(40): sleeping
+2017-07-27 19:25:48: Worker(42): running job
+2017-07-27 19:25:48: Worker(38): running job
+2017-07-27 19:25:48: Worker(42): finished job
+2017-07-27 19:25:48: Worker(42): sleeping
+2017-07-27 19:25:48: Worker(38): finished job
+2017-07-27 19:25:48: Worker(38): sleeping
+2017-07-27 19:25:48: Worker(41): running job
+2017-07-27 19:25:48: Worker(41): finished job
+2017-07-27 19:25:48: Worker(41): sleeping
+2017-07-27 19:25:48: Worker(43): running job
+2017-07-27 19:25:48: Worker(44): running job
+2017-07-27 19:25:48: Worker(45): running job
+2017-07-27 19:25:48: Worker(44): finished job
+2017-07-27 19:25:48: Worker(44): sleeping
+2017-07-27 19:25:48: Worker(43): finished job
+2017-07-27 19:25:48: Worker(45): finished job
+2017-07-27 19:25:48: Worker(45): sleeping
+2017-07-27 19:25:48: Worker(43): sleeping
+2017-07-27 19:25:48: Worker(7): running job
+2017-07-27 19:25:48: Worker(7): finished job
+2017-07-27 19:25:48: Worker(7): sleeping
+2017-07-27 19:25:48: Worker(9): running job
+2017-07-27 19:25:48: Worker(5): running job
+2017-07-27 19:25:48: Worker(2): running job
+2017-07-27 19:25:48: Worker(5): finished job
+2017-07-27 19:25:48: Worker(9): finished job
+2017-07-27 19:25:48: Worker(9): sleeping
+2017-07-27 19:25:48: Worker(5): sleeping
+2017-07-27 19:25:48: Worker(2): finished job
+2017-07-27 19:25:48: Worker(2): sleeping
+2017-07-27 19:25:48: Worker(10): running job
+2017-07-27 19:25:48: Worker(10): finished job
+2017-07-27 19:25:48: Worker(10): sleeping
+2017-07-27 19:25:48: Worker(3): running job
+2017-07-27 19:25:48: Worker(3): finished job
+2017-07-27 19:25:48: Worker(3): sleeping
+2017-07-27 19:25:48: Worker(1): running job
+2017-07-27 19:25:48: Worker(1): finished job
+2017-07-27 19:25:48: Worker(1): sleeping
+2017-07-27 19:25:48: Worker(4): running job
+2017-07-27 19:25:48: Worker(4): finished job
+2017-07-27 19:25:48: Worker(4): sleeping
+2017-07-27 19:25:48: Worker(13): running job
+2017-07-27 19:25:48: Worker(13): finished job
+2017-07-27 19:25:48: Worker(13): sleeping
+2017-07-27 19:25:48: Worker(12): running job
+2017-07-27 19:25:48: Worker(12): finished job
+2017-07-27 19:25:48: Worker(12): sleeping
+2017-07-27 19:25:48: Worker(11): running job
+2017-07-27 19:25:48: Worker(11): finished job
+2017-07-27 19:25:48: Worker(11): sleeping
+2017-07-27 19:25:48: Worker(15): running job
+2017-07-27 19:25:48: Worker(15): finished job
+2017-07-27 19:25:48: Worker(15): sleeping
+2017-07-27 19:25:48: Worker(14): running job
+2017-07-27 19:25:48: Worker(14): finished job
+2017-07-27 19:25:48: Worker(14): sleeping
+2017-07-27 19:25:49: Worker(17): running job
+2017-07-27 19:25:49: Worker(16): running job
+2017-07-27 19:25:49: Worker(18): running job
+2017-07-27 19:25:49: Worker(16): finished job
+2017-07-27 19:25:49: Worker(16): sleeping
+2017-07-27 19:25:49: Worker(17): finished job
+2017-07-27 19:25:49: Worker(17): sleeping
+2017-07-27 19:25:49: Worker(18): finished job
+2017-07-27 19:25:49: Worker(18): sleeping
+2017-07-27 19:25:49: Worker(21): running job
+2017-07-27 19:25:49: Worker(21): finished job
+2017-07-27 19:25:49: Worker(21): sleeping
+2017-07-27 19:25:49: Worker(19): running job
+2017-07-27 19:25:49: Worker(19): finished job
+2017-07-27 19:25:49: Worker(19): sleeping
+2017-07-27 19:25:49: Worker(20): running job
+2017-07-27 19:25:49: Worker(22): running job
+2017-07-27 19:25:49: Worker(20): finished job
+2017-07-27 19:25:49: Worker(20): sleeping
+2017-07-27 19:25:49: Worker(22): finished job
+2017-07-27 19:25:49: Worker(22): sleeping
+2017-07-27 19:25:49: Worker(6): running job
+2017-07-27 19:25:49: Worker(26): running job
+2017-07-27 19:25:49: Worker(24): running job
+2017-07-27 19:25:49: Worker(25): running job
+2017-07-27 19:25:49: Worker(24): finished job
+2017-07-27 19:25:49: Worker(24): sleeping
+2017-07-27 19:25:49: Worker(26): finished job
+2017-07-27 19:25:49: Worker(26): sleeping
+2017-07-27 19:25:49: Worker(6): finished job
+2017-07-27 19:25:49: Worker(6): sleeping
+2017-07-27 19:25:49: Worker(25): finished job
+2017-07-27 19:25:49: Worker(25): sleeping
+2017-07-27 19:25:49: Worker(23): running job
+2017-07-27 19:25:49: Worker(23): finished job
+2017-07-27 19:25:49: Worker(23): sleeping
+2017-07-27 19:25:49: Worker(8): running job
+2017-07-27 19:25:49: Worker(27): running job
+2017-07-27 19:25:49: Worker(8): finished job
+2017-07-27 19:25:49: Worker(8): sleeping
+2017-07-27 19:25:49: Worker(27): finished job
+2017-07-27 19:25:49: Worker(27): sleeping
+2017-07-27 19:25:49: Worker(28): running job
+2017-07-27 19:25:49: Worker(31): running job
+2017-07-27 19:25:49: Worker(28): finished job
+2017-07-27 19:25:49: Worker(28): sleeping
+2017-07-27 19:25:49: Worker(31): finished job
+2017-07-27 19:25:49: Worker(31): sleeping
+2017-07-27 19:25:49: Worker(34): running job
+2017-07-27 19:25:49: Worker(30): running job
+2017-07-27 19:25:49: Worker(32): running job
+2017-07-27 19:25:49: Worker(30): finished job
+2017-07-27 19:25:49: Worker(30): sleeping
+2017-07-27 19:25:49: Worker(34): finished job
+2017-07-27 19:25:49: Worker(34): sleeping
+2017-07-27 19:25:49: Worker(32): finished job
+2017-07-27 19:25:49: Worker(32): sleeping
+2017-07-27 19:25:49: Worker(37): running job
+2017-07-27 19:25:49: Worker(37): finished job
+2017-07-27 19:25:49: Worker(37): sleeping
+2017-07-27 19:25:49: Worker(36): running job
+2017-07-27 19:25:49: Worker(36): finished job
+2017-07-27 19:25:49: Worker(36): sleeping
+2017-07-27 19:25:49: Worker(33): running job
+2017-07-27 19:25:49: Worker(33): finished job
+2017-07-27 19:25:49: Worker(29): running job
+2017-07-27 19:25:49: Worker(29): finished job
+2017-07-27 19:25:49: Worker(29): sleeping
+2017-07-27 19:25:49: Worker(33): sleeping
+2017-07-27 19:25:49: Worker(35): running job
+2017-07-27 19:25:49: Worker(35): finished job
+2017-07-27 19:25:49: Worker(35): sleeping
+2017-07-27 19:25:49: Worker(40): running job
+2017-07-27 19:25:49: Worker(40): finished job
+2017-07-27 19:25:49: Worker(40): sleeping
+2017-07-27 19:25:49: Worker(39): running job
+2017-07-27 19:25:49: Worker(39): finished job
+2017-07-27 19:25:49: Worker(39): sleeping
+2017-07-27 19:25:49: Worker(41): running job
+2017-07-27 19:25:49: Worker(41): finished job
+2017-07-27 19:25:49: Worker(41): sleeping
+2017-07-27 19:25:49: Worker(45): running job
+2017-07-27 19:25:49: Worker(45): finished job
+2017-07-27 19:25:49: Worker(45): sleeping
+2017-07-27 19:25:49: Worker(44): running job
+2017-07-27 19:25:49: Worker(44): finished job
+2017-07-27 19:25:49: Worker(44): sleeping
+2017-07-27 19:25:49: Worker(43): running job
+2017-07-27 19:25:49: Worker(43): finished job
+2017-07-27 19:25:49: Worker(43): sleeping
+2017-07-27 19:25:49: Worker(38): running job
+2017-07-27 19:25:49: Worker(38): finished job
+2017-07-27 19:25:49: Worker(38): sleeping
+2017-07-27 19:25:49: Worker(42): running job
+2017-07-27 19:25:49: Worker(42): finished job
+2017-07-27 19:25:49: Worker(42): sleeping
+2017-07-27 19:25:49: Worker(7): running job
+2017-07-27 19:25:49: Worker(7): finished job
+2017-07-27 19:25:49: Worker(7): sleeping
+2017-07-27 19:25:49: Worker(2): running job
+2017-07-27 19:25:49: Worker(5): running job
+2017-07-27 19:25:49: Worker(5): finished job
+2017-07-27 19:25:49: Worker(5): sleeping
+2017-07-27 19:25:49: Worker(9): running job
+2017-07-27 19:25:49: Worker(2): finished job
+2017-07-27 19:25:49: Worker(2): sleeping
+2017-07-27 19:25:49: Worker(9): finished job
+2017-07-27 19:25:49: Worker(9): sleeping
+2017-07-27 19:25:49: Worker(10): running job
+2017-07-27 19:25:49: Worker(10): finished job
+2017-07-27 19:25:49: Worker(10): sleeping
+2017-07-27 19:25:49: Worker(3): running job
+2017-07-27 19:25:49: Worker(3): finished job
+2017-07-27 19:25:49: Worker(3): sleeping
+2017-07-27 19:25:49: Worker(1): running job
+2017-07-27 19:25:49: Worker(1): finished job
+2017-07-27 19:25:49: Worker(1): sleeping
+2017-07-27 19:25:49: Worker(4): running job
+2017-07-27 19:25:49: Worker(4): finished job
+2017-07-27 19:25:49: Worker(4): sleeping
+2017-07-27 19:25:49: Worker(13): running job
+2017-07-27 19:25:49: Worker(13): finished job
+2017-07-27 19:25:49: Worker(13): sleeping
+2017-07-27 19:25:49: Worker(12): running job
+2017-07-27 19:25:49: Worker(12): finished job
+2017-07-27 19:25:49: Worker(12): sleeping
+2017-07-27 19:25:49: Worker(11): running job
+2017-07-27 19:25:49: Worker(11): finished job
+2017-07-27 19:25:49: Worker(11): sleeping
+2017-07-27 19:25:49: Worker(15): running job
+2017-07-27 19:25:49: Worker(15): finished job
+2017-07-27 19:25:49: Worker(15): sleeping
+2017-07-27 19:25:49: Worker(14): running job
+2017-07-27 19:25:49: Worker(14): finished job
+2017-07-27 19:25:49: Worker(14): sleeping
+2017-07-27 19:25:50: Worker(17): running job
+2017-07-27 19:25:50: Worker(16): running job
+2017-07-27 19:25:50: Worker(16): finished job
+2017-07-27 19:25:50: Worker(16): sleeping
+2017-07-27 19:25:50: Worker(17): finished job
+2017-07-27 19:25:50: Worker(17): sleeping
+2017-07-27 19:25:50: Worker(18): running job
+2017-07-27 19:25:50: Worker(18): finished job
+2017-07-27 19:25:50: Worker(18): sleeping
+2017-07-27 19:25:50: Worker(21): running job
+2017-07-27 19:25:50: Worker(21): finished job
+2017-07-27 19:25:50: Worker(21): sleeping
+2017-07-27 19:25:50: Worker(19): running job
+2017-07-27 19:25:50: Worker(19): finished job
+2017-07-27 19:25:50: Worker(19): sleeping
+2017-07-27 19:25:50: Worker(22): running job
+2017-07-27 19:25:50: Worker(22): finished job
+2017-07-27 19:25:50: Worker(20): running job
+2017-07-27 19:25:50: Worker(22): sleeping
+2017-07-27 19:25:50: Worker(20): finished job
+2017-07-27 19:25:50: Worker(20): sleeping
+2017-07-27 19:25:50: Worker(24): running job
+2017-07-27 19:25:50: Worker(6): running job
+2017-07-27 19:25:50: Worker(26): running job
+2017-07-27 19:25:50: Worker(25): running job
+2017-07-27 19:25:50: Worker(26): finished job
+2017-07-27 19:25:50: Worker(26): sleeping
+2017-07-27 19:25:50: Worker(6): finished job
+2017-07-27 19:25:50: Worker(24): finished job
+2017-07-27 19:25:50: Worker(24): sleeping
+2017-07-27 19:25:50: Worker(6): sleeping
+2017-07-27 19:25:50: Worker(25): finished job
+2017-07-27 19:25:50: Worker(25): sleeping
+2017-07-27 19:25:50: Worker(23): running job
+2017-07-27 19:25:50: Worker(23): finished job
+2017-07-27 19:25:50: Worker(23): sleeping
+2017-07-27 19:25:50: Worker(27): running job
+2017-07-27 19:25:50: Worker(8): running job
+2017-07-27 19:25:50: Worker(27): finished job
+2017-07-27 19:25:50: Worker(8): finished job
+2017-07-27 19:25:50: Worker(27): sleeping
+2017-07-27 19:25:50: Worker(8): sleeping
+2017-07-27 19:25:50: Worker(28): running job
+2017-07-27 19:25:50: Worker(31): running job
+2017-07-27 19:25:50: Worker(31): finished job
+2017-07-27 19:25:50: Worker(31): sleeping
+2017-07-27 19:25:50: Worker(28): finished job
+2017-07-27 19:25:50: Worker(28): sleeping
+2017-07-27 19:25:50: Worker(30): running job
+2017-07-27 19:25:50: Worker(30): finished job
+2017-07-27 19:25:50: Worker(30): sleeping
+2017-07-27 19:25:50: Worker(32): running job
+2017-07-27 19:25:50: Worker(32): finished job
+2017-07-27 19:25:50: Worker(32): sleeping
+2017-07-27 19:25:50: Worker(34): running job
+2017-07-27 19:25:50: Worker(34): finished job
+2017-07-27 19:25:50: Worker(34): sleeping
+2017-07-27 19:25:50: Worker(37): running job
+2017-07-27 19:25:50: Worker(37): finished job
+2017-07-27 19:25:50: Worker(37): sleeping
+2017-07-27 19:25:50: Worker(36): running job
+2017-07-27 19:25:50: Worker(36): finished job
+2017-07-27 19:25:50: Worker(36): sleeping
+2017-07-27 19:25:50: Worker(29): running job
+2017-07-27 19:25:50: Worker(29): finished job
+2017-07-27 19:25:50: Worker(29): sleeping
+2017-07-27 19:25:50: Worker(33): running job
+2017-07-27 19:25:50: Worker(33): finished job
+2017-07-27 19:25:50: Worker(33): sleeping
+2017-07-27 19:25:50: Worker(35): running job
+2017-07-27 19:25:50: Worker(40): running job
+2017-07-27 19:25:50: Worker(35): finished job
+2017-07-27 19:25:50: Worker(35): sleeping
+2017-07-27 19:25:50: Worker(40): finished job
+2017-07-27 19:25:50: Worker(40): sleeping
+2017-07-27 19:25:50: Worker(44): running job
+2017-07-27 19:25:50: Worker(39): running job
+2017-07-27 19:25:50: Worker(41): running job
+2017-07-27 19:25:50: Worker(45): running job
+2017-07-27 19:25:50: Worker(41): finished job
+2017-07-27 19:25:50: Worker(41): sleeping
+2017-07-27 19:25:50: Worker(39): finished job
+2017-07-27 19:25:50: Worker(39): sleeping
+2017-07-27 19:25:50: Worker(44): finished job
+2017-07-27 19:25:50: Worker(44): sleeping
+2017-07-27 19:25:50: Worker(45): finished job
+2017-07-27 19:25:50: Worker(45): sleeping
+2017-07-27 19:25:50: Worker(43): running job
+2017-07-27 19:25:50: Worker(38): running job
+2017-07-27 19:25:50: Worker(42): running job
+2017-07-27 19:25:50: Worker(43): finished job
+2017-07-27 19:25:50: Worker(43): sleeping
+2017-07-27 19:25:50: Worker(42): finished job
+2017-07-27 19:25:50: Worker(42): sleeping
+2017-07-27 19:25:50: Worker(38): finished job
+2017-07-27 19:25:50: Worker(38): sleeping
+2017-07-27 19:25:50: Worker(7): running job
+2017-07-27 19:25:50: Worker(7): finished job
+2017-07-27 19:25:50: Worker(7): sleeping
+2017-07-27 19:25:50: Worker(9): running job
+2017-07-27 19:25:50: Worker(2): running job
+2017-07-27 19:25:50: Worker(5): running job
+2017-07-27 19:25:50: Worker(2): finished job
+2017-07-27 19:25:50: Worker(9): finished job
+2017-07-27 19:25:50: Worker(9): sleeping
+2017-07-27 19:25:50: Worker(2): sleeping
+2017-07-27 19:25:50: Worker(5): finished job
+2017-07-27 19:25:50: Worker(5): sleeping
+2017-07-27 19:25:50: Worker(10): running job
+2017-07-27 19:25:50: Worker(10): finished job
+2017-07-27 19:25:50: Worker(10): sleeping
+2017-07-27 19:25:50: Worker(3): running job
+2017-07-27 19:25:50: Worker(3): finished job
+2017-07-27 19:25:50: Worker(3): sleeping
+2017-07-27 19:25:50: Worker(1): running job
+2017-07-27 19:25:50: Worker(1): finished job
+2017-07-27 19:25:50: Worker(1): sleeping
+2017-07-27 19:25:50: Worker(4): running job
+2017-07-27 19:25:50: Worker(4): finished job
+2017-07-27 19:25:50: Worker(4): sleeping
+2017-07-27 19:25:50: Worker(13): running job
+2017-07-27 19:25:50: Worker(13): finished job
+2017-07-27 19:25:50: Worker(13): sleeping
+2017-07-27 19:25:50: Worker(12): running job
+2017-07-27 19:25:50: Worker(12): finished job
+2017-07-27 19:25:50: Worker(12): sleeping
+2017-07-27 19:25:50: Worker(11): running job
+2017-07-27 19:25:50: Worker(11): finished job
+2017-07-27 19:25:50: Worker(11): sleeping
+2017-07-27 19:25:50: Worker(15): running job
+2017-07-27 19:25:50: Worker(15): finished job
+2017-07-27 19:25:50: Worker(15): sleeping
+2017-07-27 19:25:50: Worker(14): running job
+2017-07-27 19:25:50: Worker(14): finished job
+2017-07-27 19:25:50: Worker(14): sleeping
+2017-07-27 19:25:51: Manager(threshhold 2): doubling worker count
+2017-07-27 19:25:51: Worker created
+2017-07-27 19:25:51: Worker created
+2017-07-27 19:25:51: Worker created
+2017-07-27 19:25:51: Worker(47): running job
+2017-07-27 19:25:51: Worker created
+2017-07-27 19:25:51: Worker(46): running job
+2017-07-27 19:25:51: Worker(49): running job
+2017-07-27 19:25:51: Worker(47): finished job
+2017-07-27 19:25:51: Worker created
+2017-07-27 19:25:51: Worker(48): running job
+2017-07-27 19:25:51: Pool: workers increased to 50
+2017-07-27 19:25:51: Worker(16): running job
+2017-07-27 19:25:51: Worker(47): sleeping
+2017-07-27 19:25:51: Worker(46): finished job
+2017-07-27 19:25:51: Worker(49): finished job
+2017-07-27 19:25:51: Worker(49): sleeping
+2017-07-27 19:25:51: Worker(46): sleeping
+2017-07-27 19:25:51: Worker(16): finished job
+2017-07-27 19:25:51: Worker(50): running job
+2017-07-27 19:25:51: Worker(18): running job
+2017-07-27 19:25:51: Worker(48): finished job
+2017-07-27 19:25:51: Worker(48): sleeping
+2017-07-27 19:25:51: Worker(17): running job
+2017-07-27 19:25:51: Worker(18): finished job
+2017-07-27 19:25:51: Worker(50): finished job
+2017-07-27 19:25:51: Worker(16): sleeping
+2017-07-27 19:25:51: Worker(50): sleeping
+2017-07-27 19:25:51: Worker(18): sleeping
+2017-07-27 19:25:51: Worker(17): finished job
+2017-07-27 19:25:51: Worker(17): sleeping
+2017-07-27 19:25:51: Worker(21): running job
+2017-07-27 19:25:51: Worker(21): finished job
+2017-07-27 19:25:51: Worker(21): sleeping
+2017-07-27 19:25:51: Worker(19): running job
+2017-07-27 19:25:51: Worker(19): finished job
+2017-07-27 19:25:51: Worker(19): sleeping
+2017-07-27 19:25:51: Worker(20): running job
+2017-07-27 19:25:51: Worker(22): running job
+2017-07-27 19:25:51: Worker(20): finished job
+2017-07-27 19:25:51: Worker(22): finished job
+2017-07-27 19:25:51: Worker(22): sleeping
+2017-07-27 19:25:51: Worker(20): sleeping
+2017-07-27 19:25:51: Worker(25): running job
+2017-07-27 19:25:51: Worker(24): running job
+2017-07-27 19:25:51: Worker(6): running job
+2017-07-27 19:25:51: Worker(26): running job
+2017-07-27 19:25:51: Worker(25): finished job
+2017-07-27 19:25:51: Worker(25): sleeping
+2017-07-27 19:25:51: Worker(26): finished job
+2017-07-27 19:25:51: Worker(6): finished job
+2017-07-27 19:25:51: Worker(24): finished job
+2017-07-27 19:25:51: Worker(6): sleeping
+2017-07-27 19:25:51: Worker(26): sleeping
+2017-07-27 19:25:51: Worker(24): sleeping
+2017-07-27 19:25:51: Worker(23): running job
+2017-07-27 19:25:51: Worker(23): finished job
+2017-07-27 19:25:51: Worker(23): sleeping
+2017-07-27 19:25:51: Worker(8): running job
+2017-07-27 19:25:51: Worker(27): running job
+2017-07-27 19:25:51: Worker(8): finished job
+2017-07-27 19:25:51: Worker(27): finished job
+2017-07-27 19:25:51: Worker(8): sleeping
+2017-07-27 19:25:51: Worker(27): sleeping
+2017-07-27 19:25:51: Worker(28): running job
+2017-07-27 19:25:51: Worker(31): running job
+2017-07-27 19:25:51: Worker(28): finished job
+2017-07-27 19:25:51: Worker(31): finished job
+2017-07-27 19:25:51: Worker(28): sleeping
+2017-07-27 19:25:51: Worker(31): sleeping
+2017-07-27 19:25:51: Worker(32): running job
+2017-07-27 19:25:51: Worker(30): running job
+2017-07-27 19:25:51: Worker(34): running job
+2017-07-27 19:25:51: Worker(30): finished job
+2017-07-27 19:25:51: Worker(32): finished job
+2017-07-27 19:25:51: Worker(30): sleeping
+2017-07-27 19:25:51: Worker(34): finished job
+2017-07-27 19:25:51: Worker(34): sleeping
+2017-07-27 19:25:51: Worker(32): sleeping
+2017-07-27 19:25:51: Worker(36): running job
+2017-07-27 19:25:51: Worker(37): running job
+2017-07-27 19:25:51: Worker(36): finished job
+2017-07-27 19:25:51: Worker(37): finished job
+2017-07-27 19:25:51: Worker(37): sleeping
+2017-07-27 19:25:51: Worker(36): sleeping
+2017-07-27 19:25:51: Worker(29): running job
+2017-07-27 19:25:51: Worker(33): running job
+2017-07-27 19:25:51: Worker(29): finished job
+2017-07-27 19:25:51: Worker(33): finished job
+2017-07-27 19:25:51: Worker(33): sleeping
+2017-07-27 19:25:51: Worker(29): sleeping
+2017-07-27 19:25:51: Worker(35): running job
+2017-07-27 19:25:51: Worker(40): running job
+2017-07-27 19:25:51: Worker(35): finished job
+2017-07-27 19:25:51: Worker(35): sleeping
+2017-07-27 19:25:51: Worker(40): finished job
+2017-07-27 19:25:51: Worker(40): sleeping
+2017-07-27 19:25:51: Worker(41): running job
+2017-07-27 19:25:51: Worker(39): running job
+2017-07-27 19:25:51: Worker(45): running job
+2017-07-27 19:25:51: Worker(39): finished job
+2017-07-27 19:25:51: Worker(39): sleeping
+2017-07-27 19:25:51: Worker(44): running job
+2017-07-27 19:25:51: Worker(45): finished job
+2017-07-27 19:25:51: Worker(45): sleeping
+2017-07-27 19:25:51: Worker(41): finished job
+2017-07-27 19:25:51: Worker(44): finished job
+2017-07-27 19:25:51: Worker(44): sleeping
+2017-07-27 19:25:51: Worker(41): sleeping
+2017-07-27 19:25:51: Worker(42): running job
+2017-07-27 19:25:51: Worker(38): running job
+2017-07-27 19:25:51: Worker(43): running job
+2017-07-27 19:25:51: Worker(38): finished job
+2017-07-27 19:25:51: Worker(42): finished job
+2017-07-27 19:25:51: Worker(38): sleeping
+2017-07-27 19:25:51: Worker(43): finished job
+2017-07-27 19:25:51: Worker(42): sleeping
+2017-07-27 19:25:51: Worker(43): sleeping
+2017-07-27 19:25:51: Worker(7): running job
+2017-07-27 19:25:51: Worker(7): finished job
+2017-07-27 19:25:51: Worker(7): sleeping
+2017-07-27 19:25:51: Worker(9): running job
+2017-07-27 19:25:51: Worker(9): finished job
+2017-07-27 19:25:51: Worker(9): sleeping
+2017-07-27 19:25:51: Worker(2): running job
+2017-07-27 19:25:51: Worker(5): running job
+2017-07-27 19:25:51: Worker(2): finished job
+2017-07-27 19:25:51: Worker(5): finished job
+2017-07-27 19:25:51: Worker(2): sleeping
+2017-07-27 19:25:51: Worker(5): sleeping
+2017-07-27 19:25:51: Worker(10): running job
+2017-07-27 19:25:51: Worker(10): finished job
+2017-07-27 19:25:51: Worker(10): sleeping
+2017-07-27 19:25:51: Worker(3): running job
+2017-07-27 19:25:51: Worker(3): finished job
+2017-07-27 19:25:51: Worker(3): sleeping
+2017-07-27 19:25:51: Worker(1): running job
+2017-07-27 19:25:51: Worker(1): finished job
+2017-07-27 19:25:51: Worker(1): sleeping
+2017-07-27 19:25:51: Worker(4): running job
+2017-07-27 19:25:51: Worker(4): finished job
+2017-07-27 19:25:51: Worker(4): sleeping
+2017-07-27 19:25:51: Worker(13): running job
+2017-07-27 19:25:51: Worker(13): finished job
+2017-07-27 19:25:51: Worker(13): sleeping
+2017-07-27 19:25:51: Worker(12): running job
+2017-07-27 19:25:51: Worker(12): finished job
+2017-07-27 19:25:51: Worker(12): sleeping
+2017-07-27 19:25:51: Worker(11): running job
+2017-07-27 19:25:51: Worker(11): finished job
+2017-07-27 19:25:51: Worker(11): sleeping
+2017-07-27 19:25:51: Worker(15): running job
+2017-07-27 19:25:51: Worker(15): finished job
+2017-07-27 19:25:51: Worker(15): sleeping
+2017-07-27 19:25:51: Worker(14): running job
+2017-07-27 19:25:51: Worker(14): finished job
+2017-07-27 19:25:51: Worker(14): sleeping
+2017-07-27 19:25:52: Worker(47): running job
+2017-07-27 19:25:52: Worker(50): running job
+2017-07-27 19:25:52: Worker(18): running job
+2017-07-27 19:25:52: Worker(48): running job
+2017-07-27 19:25:52: Worker(16): running job
+2017-07-27 19:25:52: Worker(16): finished job
+2017-07-27 19:25:52: Worker(17): running job
+2017-07-27 19:25:52: Worker(49): running job
+2017-07-27 19:25:52: Worker(46): running job
+2017-07-27 19:25:52: Worker(49): finished job
+2017-07-27 19:25:52: Worker(17): finished job
+2017-07-27 19:25:52: Worker(16): sleeping
+2017-07-27 19:25:52: Worker(48): finished job
+2017-07-27 19:25:52: Worker(18): finished job
+2017-07-27 19:25:52: Worker(50): finished job
+2017-07-27 19:25:52: Worker(50): sleeping
+2017-07-27 19:25:52: Worker(47): finished job
+2017-07-27 19:25:52: Worker(47): sleeping
+2017-07-27 19:25:52: Worker(18): sleeping
+2017-07-27 19:25:52: Worker(48): sleeping
+2017-07-27 19:25:52: Worker(21): running job
+2017-07-27 19:25:52: Worker(17): sleeping
+2017-07-27 19:25:52: Worker(49): sleeping
+2017-07-27 19:25:52: Worker(46): finished job
+2017-07-27 19:25:52: Worker(46): sleeping
+2017-07-27 19:25:52: Worker(21): finished job
+2017-07-27 19:25:52: Worker(21): sleeping
+2017-07-27 19:25:52: Worker(19): running job
+2017-07-27 19:25:52: Worker(19): finished job
+2017-07-27 19:25:52: Worker(19): sleeping
+2017-07-27 19:25:52: Worker(22): running job
+2017-07-27 19:25:52: Worker(20): running job
+2017-07-27 19:25:52: Worker(22): finished job
+2017-07-27 19:25:52: Worker(22): sleeping
+2017-07-27 19:25:52: Worker(20): finished job
+2017-07-27 19:25:52: Worker(20): sleeping
+2017-07-27 19:25:52: Worker(25): running job
+2017-07-27 19:25:52: Worker(6): running job
+2017-07-27 19:25:52: Worker(25): finished job
+2017-07-27 19:25:52: Worker(26): running job
+2017-07-27 19:25:52: Worker(25): sleeping
+2017-07-27 19:25:52: Worker(24): running job
+2017-07-27 19:25:52: Worker(6): finished job
+2017-07-27 19:25:52: Worker(24): finished job
+2017-07-27 19:25:52: Worker(26): finished job
+2017-07-27 19:25:52: Worker(24): sleeping
+2017-07-27 19:25:52: Worker(6): sleeping
+2017-07-27 19:25:52: Worker(26): sleeping
+2017-07-27 19:25:52: Worker(23): running job
+2017-07-27 19:25:52: Worker(23): finished job
+2017-07-27 19:25:52: Worker(23): sleeping
+2017-07-27 19:25:52: Worker(8): running job
+2017-07-27 19:25:52: Worker(27): running job
+2017-07-27 19:25:52: Worker(27): finished job
+2017-07-27 19:25:52: Worker(27): sleeping
+2017-07-27 19:25:52: Worker(8): finished job
+2017-07-27 19:25:52: Worker(8): sleeping
+2017-07-27 19:25:52: Worker(31): running job
+2017-07-27 19:25:52: Worker(28): running job
+2017-07-27 19:25:52: Worker(31): finished job
+2017-07-27 19:25:52: Worker(31): sleeping
+2017-07-27 19:25:52: Worker(28): finished job
+2017-07-27 19:25:52: Worker(28): sleeping
+2017-07-27 19:25:52: Worker(32): running job
+2017-07-27 19:25:52: Worker(30): running job
+2017-07-27 19:25:52: Worker(32): finished job
+2017-07-27 19:25:52: Worker(34): running job
+2017-07-27 19:25:52: Worker(32): sleeping
+2017-07-27 19:25:52: Worker(30): finished job
+2017-07-27 19:25:52: Worker(34): finished job
+2017-07-27 19:25:52: Worker(34): sleeping
+2017-07-27 19:25:52: Worker(30): sleeping
+2017-07-27 19:25:52: Worker(37): running job
+2017-07-27 19:25:52: Worker(36): running job
+2017-07-27 19:25:52: Worker(37): finished job
+2017-07-27 19:25:52: Worker(36): finished job
+2017-07-27 19:25:52: Worker(37): sleeping
+2017-07-27 19:25:52: Worker(36): sleeping
+2017-07-27 19:25:52: Worker(29): running job
+2017-07-27 19:25:52: Worker(33): running job
+2017-07-27 19:25:52: Worker(29): finished job
+2017-07-27 19:25:52: Worker(33): finished job
+2017-07-27 19:25:52: Worker(33): sleeping
+2017-07-27 19:25:52: Worker(29): sleeping
+2017-07-27 19:25:52: Worker(40): running job
+2017-07-27 19:25:52: Worker(35): running job
+2017-07-27 19:25:52: Worker(40): finished job
+2017-07-27 19:25:52: Worker(40): sleeping
+2017-07-27 19:25:52: Worker(35): finished job
+2017-07-27 19:25:52: Worker(35): sleeping
+2017-07-27 19:25:52: Worker(41): running job
+2017-07-27 19:25:52: Worker(39): running job
+2017-07-27 19:25:52: Worker(41): finished job
+2017-07-27 19:25:52: Worker(45): running job
+2017-07-27 19:25:52: Worker(44): running job
+2017-07-27 19:25:52: Worker(45): finished job
+2017-07-27 19:25:52: Worker(41): sleeping
+2017-07-27 19:25:52: Worker(39): finished job
+2017-07-27 19:25:52: Worker(39): sleeping
+2017-07-27 19:25:52: Worker(45): sleeping
+2017-07-27 19:25:52: Worker(44): finished job
+2017-07-27 19:25:52: Worker(44): sleeping
+2017-07-27 19:25:52: Worker(42): running job
+2017-07-27 19:25:52: Worker(43): running job
+2017-07-27 19:25:52: Worker(38): running job
+2017-07-27 19:25:52: Worker(42): finished job
+2017-07-27 19:25:52: Worker(42): sleeping
+2017-07-27 19:25:52: Worker(38): finished job
+2017-07-27 19:25:52: Worker(43): finished job
+2017-07-27 19:25:52: Worker(38): sleeping
+2017-07-27 19:25:52: Worker(43): sleeping
+2017-07-27 19:25:52: Worker(7): running job
+2017-07-27 19:25:52: Worker(7): finished job
+2017-07-27 19:25:52: Worker(7): sleeping
+2017-07-27 19:25:52: Worker(9): running job
+2017-07-27 19:25:52: Worker(5): running job
+2017-07-27 19:25:52: Worker(2): running job
+2017-07-27 19:25:52: Worker(5): finished job
+2017-07-27 19:25:52: Worker(9): finished job
+2017-07-27 19:25:52: Worker(5): sleeping
+2017-07-27 19:25:52: Worker(2): finished job
+2017-07-27 19:25:52: Worker(2): sleeping
+2017-07-27 19:25:52: Worker(9): sleeping
+2017-07-27 19:25:52: Worker(10): running job
+2017-07-27 19:25:52: Worker(10): finished job
+2017-07-27 19:25:52: Worker(10): sleeping
+2017-07-27 19:25:52: Worker(3): running job
+2017-07-27 19:25:52: Worker(3): finished job
+2017-07-27 19:25:52: Worker(3): sleeping
+2017-07-27 19:25:52: Worker(1): running job
+2017-07-27 19:25:52: Worker(1): finished job
+2017-07-27 19:25:52: Worker(1): sleeping
+2017-07-27 19:25:52: Worker(4): running job
+2017-07-27 19:25:52: Worker(4): finished job
+2017-07-27 19:25:52: Worker(4): sleeping
+2017-07-27 19:25:52: Worker(13): running job
+2017-07-27 19:25:52: Worker(13): finished job
+2017-07-27 19:25:52: Worker(13): sleeping
+2017-07-27 19:25:52: Worker(12): running job
+2017-07-27 19:25:52: Worker(12): finished job
+2017-07-27 19:25:52: Worker(12): sleeping
+2017-07-27 19:25:52: Worker(11): running job
+2017-07-27 19:25:52: Worker(11): finished job
+2017-07-27 19:25:52: Worker(11): sleeping
+2017-07-27 19:25:52: Worker(15): running job
+2017-07-27 19:25:52: Worker(15): finished job
+2017-07-27 19:25:52: Worker(15): sleeping
+2017-07-27 19:25:52: Worker(14): running job
+2017-07-27 19:25:52: Worker(14): finished job
+2017-07-27 19:25:52: Worker(14): sleeping
+2017-07-27 19:25:53: Worker(18): running job
+2017-07-27 19:25:53: Worker(50): running job
+2017-07-27 19:25:53: Worker(18): finished job
+2017-07-27 19:25:53: Worker(18): sleeping
+2017-07-27 19:25:53: Worker(16): running job
+2017-07-27 19:25:53: Worker(47): running job
+2017-07-27 19:25:53: Worker(16): finished job
+2017-07-27 19:25:53: Worker(16): sleeping
+2017-07-27 19:25:53: Worker(50): finished job
+2017-07-27 19:25:53: Worker(50): sleeping
+2017-07-27 19:25:53: Worker(47): finished job
+2017-07-27 19:25:53: Worker(47): sleeping
+2017-07-27 19:25:53: Worker(48): running job
+2017-07-27 19:25:53: Worker(21): running job
+2017-07-27 19:25:53: Worker(49): running job
+2017-07-27 19:25:53: Worker(17): running job
+2017-07-27 19:25:53: Worker(46): running job
+2017-07-27 19:25:53: Worker(17): finished job
+2017-07-27 19:25:53: Worker(17): sleeping
+2017-07-27 19:25:53: Worker(49): finished job
+2017-07-27 19:25:53: Worker(49): sleeping
+2017-07-27 19:25:53: Worker(21): finished job
+2017-07-27 19:25:53: Worker(21): sleeping
+2017-07-27 19:25:53: Worker(48): finished job
+2017-07-27 19:25:53: Worker(48): sleeping
+2017-07-27 19:25:53: Worker(46): finished job
+2017-07-27 19:25:53: Worker(46): sleeping
+2017-07-27 19:25:53: Worker(19): running job
+2017-07-27 19:25:53: Worker(19): finished job
+2017-07-27 19:25:53: Worker(19): sleeping
+2017-07-27 19:25:53: Worker(20): running job
+2017-07-27 19:25:53: Worker(22): running job
+2017-07-27 19:25:53: Worker(20): finished job
+2017-07-27 19:25:53: Worker(20): sleeping
+2017-07-27 19:25:53: Worker(22): finished job
+2017-07-27 19:25:53: Worker(22): sleeping
+2017-07-27 19:25:53: Worker(25): running job
+2017-07-27 19:25:53: Worker(24): running job
+2017-07-27 19:25:53: Worker(24): finished job
+2017-07-27 19:25:53: Worker(24): sleeping
+2017-07-27 19:25:53: Worker(26): running job
+2017-07-27 19:25:53: Worker(6): running job
+2017-07-27 19:25:53: Worker(26): finished job
+2017-07-27 19:25:53: Worker(26): sleeping
+2017-07-27 19:25:53: Worker(25): finished job
+2017-07-27 19:25:53: Worker(25): sleeping
+2017-07-27 19:25:53: Worker(6): finished job
+2017-07-27 19:25:53: Worker(6): sleeping
+2017-07-27 19:25:53: Worker(23): running job
+2017-07-27 19:25:53: Worker(23): finished job
+2017-07-27 19:25:53: Worker(23): sleeping
+2017-07-27 19:25:53: Worker(27): running job
+2017-07-27 19:25:53: Worker(8): running job
+2017-07-27 19:25:53: Worker(27): finished job
+2017-07-27 19:25:53: Worker(27): sleeping
+2017-07-27 19:25:53: Worker(8): finished job
+2017-07-27 19:25:53: Worker(8): sleeping
+2017-07-27 19:25:53: Worker(28): running job
+2017-07-27 19:25:53: Worker(28): finished job
+2017-07-27 19:25:53: Worker(28): sleeping
+2017-07-27 19:25:53: Worker(31): running job
+2017-07-27 19:25:53: Worker(31): finished job
+2017-07-27 19:25:53: Worker(31): sleeping
+2017-07-27 19:25:53: Worker(34): running job
+2017-07-27 19:25:53: Worker(30): running job
+2017-07-27 19:25:53: Worker(32): running job
+2017-07-27 19:25:53: Worker(30): finished job
+2017-07-27 19:25:53: Worker(30): sleeping
+2017-07-27 19:25:53: Worker(34): finished job
+2017-07-27 19:25:53: Worker(34): sleeping
+2017-07-27 19:25:53: Worker(32): finished job
+2017-07-27 19:25:53: Worker(32): sleeping
+2017-07-27 19:25:53: Worker(37): running job
+2017-07-27 19:25:53: Worker(36): running job
+2017-07-27 19:25:53: Worker(36): finished job
+2017-07-27 19:25:53: Worker(36): sleeping
+2017-07-27 19:25:53: Worker(37): finished job
+2017-07-27 19:25:53: Worker(37): sleeping
+2017-07-27 19:25:53: Worker(33): running job
+2017-07-27 19:25:53: Worker(29): running job
+2017-07-27 19:25:53: Worker(29): finished job
+2017-07-27 19:25:53: Worker(29): sleeping
+2017-07-27 19:25:53: Worker(33): finished job
+2017-07-27 19:25:53: Worker(33): sleeping
+2017-07-27 19:25:53: Worker(40): running job
+2017-07-27 19:25:53: Worker(35): running job
+2017-07-27 19:25:53: Worker(40): finished job
+2017-07-27 19:25:53: Worker(40): sleeping
+2017-07-27 19:25:53: Worker(35): finished job
+2017-07-27 19:25:53: Worker(35): sleeping
+2017-07-27 19:25:53: Worker(45): running job
+2017-07-27 19:25:53: Worker(44): running job
+2017-07-27 19:25:53: Worker(41): running job
+2017-07-27 19:25:53: Worker(39): running job
+2017-07-27 19:25:53: Worker(41): finished job
+2017-07-27 19:25:53: Worker(41): sleeping
+2017-07-27 19:25:53: Worker(44): finished job
+2017-07-27 19:25:53: Worker(44): sleeping
+2017-07-27 19:25:53: Worker(45): finished job
+2017-07-27 19:25:53: Worker(45): sleeping
+2017-07-27 19:25:53: Worker(39): finished job
+2017-07-27 19:25:53: Worker(39): sleeping
+2017-07-27 19:25:53: Worker(42): running job
+2017-07-27 19:25:53: Worker(42): finished job
+2017-07-27 19:25:53: Worker(42): sleeping
+2017-07-27 19:25:53: Worker(43): running job
+2017-07-27 19:25:53: Worker(38): running job
+2017-07-27 19:25:53: Worker(43): finished job
+2017-07-27 19:25:53: Worker(43): sleeping
+2017-07-27 19:25:53: Worker(38): finished job
+2017-07-27 19:25:53: Worker(38): sleeping
+2017-07-27 19:25:53: Worker(7): running job
+2017-07-27 19:25:53: Worker(7): finished job
+2017-07-27 19:25:53: Worker(7): sleeping
+2017-07-27 19:25:53: Worker(5): running job
+2017-07-27 19:25:53: Worker(2): running job
+2017-07-27 19:25:53: Worker(9): running job
+2017-07-27 19:25:53: Worker(2): finished job
+2017-07-27 19:25:53: Worker(2): sleeping
+2017-07-27 19:25:53: Worker(5): finished job
+2017-07-27 19:25:53: Worker(5): sleeping
+2017-07-27 19:25:53: Worker(9): finished job
+2017-07-27 19:25:53: Worker(9): sleeping
+2017-07-27 19:25:53: Worker(10): running job
+2017-07-27 19:25:53: Worker(10): finished job
+2017-07-27 19:25:53: Worker(10): sleeping
+2017-07-27 19:25:53: Worker(3): running job
+2017-07-27 19:25:53: Worker(3): finished job
+2017-07-27 19:25:53: Worker(3): sleeping
+2017-07-27 19:25:53: Worker(1): running job
+2017-07-27 19:25:53: Worker(1): finished job
+2017-07-27 19:25:53: Worker(1): sleeping
+2017-07-27 19:25:53: Worker(4): running job
+2017-07-27 19:25:53: Worker(4): finished job
+2017-07-27 19:25:53: Worker(4): sleeping
+2017-07-27 19:25:53: Worker(13): running job
+2017-07-27 19:25:53: Worker(13): finished job
+2017-07-27 19:25:53: Worker(13): sleeping
+2017-07-27 19:25:53: Worker(12): running job
+2017-07-27 19:25:53: Worker(12): finished job
+2017-07-27 19:25:53: Worker(12): sleeping
+2017-07-27 19:25:53: Worker(11): running job
+2017-07-27 19:25:53: Worker(11): finished job
+2017-07-27 19:25:53: Worker(11): sleeping
+2017-07-27 19:25:53: Worker(15): running job
+2017-07-27 19:25:53: Worker(15): finished job
+2017-07-27 19:25:53: Worker(15): sleeping
+2017-07-27 19:25:53: Worker(14): running job
+2017-07-27 19:25:53: Worker(14): finished job
+2017-07-27 19:25:53: Worker(14): sleeping
+2017-07-27 19:25:54: Worker(50): running job
+2017-07-27 19:25:54: Worker(18): running job
+2017-07-27 19:25:54: Worker(16): running job
+2017-07-27 19:25:54: Worker(47): running job
+2017-07-27 19:25:54: Worker(16): finished job
+2017-07-27 19:25:54: Worker(16): sleeping
+2017-07-27 19:25:54: Worker(18): finished job
+2017-07-27 19:25:54: Worker(18): sleeping
+2017-07-27 19:25:54: Worker(50): finished job
+2017-07-27 19:25:54: Worker(50): sleeping
+2017-07-27 19:25:54: Worker(47): finished job
+2017-07-27 19:25:54: Worker(47): sleeping
+2017-07-27 19:25:54: Worker(21): running job
+2017-07-27 19:25:54: Worker(48): running job
+2017-07-27 19:25:54: Worker(49): running job
+2017-07-27 19:25:54: Worker(49): finished job
+2017-07-27 19:25:54: Worker(49): sleeping
+2017-07-27 19:25:54: Worker(17): running job
+2017-07-27 19:25:54: Worker(46): running job
+2017-07-27 19:25:54: Worker(17): finished job
+2017-07-27 19:25:54: Worker(17): sleeping
+2017-07-27 19:25:54: Worker(48): finished job
+2017-07-27 19:25:54: Worker(48): sleeping
+2017-07-27 19:25:54: Worker(21): finished job
+2017-07-27 19:25:54: Worker(21): sleeping
+2017-07-27 19:25:54: Worker(46): finished job
+2017-07-27 19:25:54: Worker(46): sleeping
+2017-07-27 19:25:54: Worker(19): running job
+2017-07-27 19:25:54: Worker(19): finished job
+2017-07-27 19:25:54: Worker(19): sleeping
+2017-07-27 19:25:54: Worker(22): running job
+2017-07-27 19:25:54: Worker(20): running job
+2017-07-27 19:25:54: Worker(22): finished job
+2017-07-27 19:25:54: Worker(22): sleeping
+2017-07-27 19:25:54: Worker(20): finished job
+2017-07-27 19:25:54: Worker(20): sleeping
+2017-07-27 19:25:54: Worker(25): running job
+2017-07-27 19:25:54: Worker(24): running job
+2017-07-27 19:25:54: Worker(6): running job
+2017-07-27 19:25:54: Worker(26): running job
+2017-07-27 19:25:54: Worker(6): finished job
+2017-07-27 19:25:54: Worker(6): sleeping
+2017-07-27 19:25:54: Worker(24): finished job
+2017-07-27 19:25:54: Worker(24): sleeping
+2017-07-27 19:25:54: Worker(25): finished job
+2017-07-27 19:25:54: Worker(25): sleeping
+2017-07-27 19:25:54: Worker(26): finished job
+2017-07-27 19:25:54: Worker(26): sleeping
+2017-07-27 19:25:54: Worker(23): running job
+2017-07-27 19:25:54: Worker(23): finished job
+2017-07-27 19:25:54: Worker(23): sleeping
+2017-07-27 19:25:54: Worker(27): running job
+2017-07-27 19:25:54: Worker(8): running job
+2017-07-27 19:25:54: Worker(27): finished job
+2017-07-27 19:25:54: Worker(27): sleeping
+2017-07-27 19:25:54: Worker(8): finished job
+2017-07-27 19:25:54: Worker(8): sleeping
+2017-07-27 19:25:54: Worker(28): running job
+2017-07-27 19:25:54: Worker(31): running job
+2017-07-27 19:25:54: Worker(28): finished job
+2017-07-27 19:25:54: Worker(28): sleeping
+2017-07-27 19:25:54: Worker(31): finished job
+2017-07-27 19:25:54: Worker(31): sleeping
+2017-07-27 19:25:54: Worker(30): running job
+2017-07-27 19:25:54: Worker(34): running job
+2017-07-27 19:25:54: Worker(32): running job
+2017-07-27 19:25:54: Worker(34): finished job
+2017-07-27 19:25:54: Worker(34): sleeping
+2017-07-27 19:25:54: Worker(30): finished job
+2017-07-27 19:25:54: Worker(30): sleeping
+2017-07-27 19:25:54: Worker(32): finished job
+2017-07-27 19:25:54: Worker(32): sleeping
+2017-07-27 19:25:54: Worker(37): running job
+2017-07-27 19:25:54: Worker(37): finished job
+2017-07-27 19:25:54: Worker(37): sleeping
+2017-07-27 19:25:54: Worker(36): running job
+2017-07-27 19:25:54: Worker(36): finished job
+2017-07-27 19:25:54: Worker(36): sleeping
+2017-07-27 19:25:54: Cleaning up clients
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Worker(33): running job
+2017-07-27 19:25:54: Worker(29): running job
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Worker(29): finished job
+2017-07-27 19:25:54: Worker(29): sleeping
+2017-07-27 19:25:54: Worker(33): finished job
+2017-07-27 19:25:54: Worker(33): sleeping
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Worker(40): running job
+2017-07-27 19:25:54: Worker(35): running job
+2017-07-27 19:25:54: Worker(40): finished job
+2017-07-27 19:25:54: Worker(40): sleeping
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Worker(35): finished job
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Worker(35): sleeping
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Connection closed
+2017-07-27 19:25:54: Waiting for connections to timeout on server, and for jobs to die down
+2017-07-27 19:25:54: Worker(45): running job
+2017-07-27 19:25:54: Worker(41): running job
+2017-07-27 19:25:54: Worker(44): running job
+2017-07-27 19:25:54: Worker(39): running job
+2017-07-27 19:25:54: Worker(41): finished job
+2017-07-27 19:25:54: Worker(41): sleeping
+2017-07-27 19:25:54: Worker(45): finished job
+2017-07-27 19:25:54: Worker(39): finished job
+2017-07-27 19:25:54: Worker(39): sleeping
+2017-07-27 19:25:54: Worker(45): sleeping
+2017-07-27 19:25:54: Worker(44): finished job
+2017-07-27 19:25:54: Worker(44): sleeping
+2017-07-27 19:25:54: Worker(38): running job
+2017-07-27 19:25:54: Worker(42): running job
+2017-07-27 19:25:54: Worker(43): running job
+2017-07-27 19:25:54: Worker(42): finished job
+2017-07-27 19:25:54: Worker(38): finished job
+2017-07-27 19:25:54: Worker(42): sleeping
+2017-07-27 19:25:54: Worker(43): finished job
+2017-07-27 19:25:54: Worker(38): sleeping
+2017-07-27 19:25:54: Worker(43): sleeping
+2017-07-27 19:25:54: Worker(7): running job
+2017-07-27 19:25:54: Worker(7): finished job
+2017-07-27 19:25:54: Worker(7): sleeping
+2017-07-27 19:25:54: Worker(2): running job
+2017-07-27 19:25:54: Worker(9): running job
+2017-07-27 19:25:54: Worker(5): running job
+2017-07-27 19:25:54: Worker(9): finished job
+2017-07-27 19:25:54: Worker(9): sleeping
+2017-07-27 19:25:54: Worker(2): finished job
+2017-07-27 19:25:54: Worker(2): sleeping
+2017-07-27 19:25:54: Worker(5): finished job
+2017-07-27 19:25:54: Worker(5): sleeping
+2017-07-27 19:25:54: Worker(10): running job
+2017-07-27 19:25:54: Worker(10): finished job
+2017-07-27 19:25:54: Worker(10): sleeping
+2017-07-27 19:25:54: Worker(3): running job
+2017-07-27 19:25:54: Worker(3): finished job
+2017-07-27 19:25:54: Worker(3): sleeping
+2017-07-27 19:25:54: Worker(1): running job
+2017-07-27 19:25:54: Worker(1): finished job
+2017-07-27 19:25:54: Worker(1): sleeping
+2017-07-27 19:25:54: Worker(4): running job
+2017-07-27 19:25:54: Worker(4): finished job
+2017-07-27 19:25:54: Worker(4): sleeping
+2017-07-27 19:25:54: Worker(13): running job
+2017-07-27 19:25:54: Worker(13): finished job
+2017-07-27 19:25:54: Worker(13): sleeping
+2017-07-27 19:25:54: Worker(12): running job
+2017-07-27 19:25:54: Worker(12): finished job
+2017-07-27 19:25:54: Worker(12): sleeping
+2017-07-27 19:25:54: Worker(11): running job
+2017-07-27 19:25:54: Worker(11): finished job
+2017-07-27 19:25:54: Worker(11): sleeping
+2017-07-27 19:25:54: Worker(15): running job
+2017-07-27 19:25:54: Worker(15): finished job
+2017-07-27 19:25:54: Worker(15): sleeping
+2017-07-27 19:25:54: Worker(14): running job
+2017-07-27 19:25:54: Worker(14): finished job
+2017-07-27 19:25:54: Worker(14): sleeping
+2017-07-27 19:25:55: Worker(18): running job
+2017-07-27 19:25:55: Worker(50): running job
+2017-07-27 19:25:55: Worker(18): finished job
+2017-07-27 19:25:55: Worker(18): sleeping
+2017-07-27 19:25:55: Worker(16): running job
+2017-07-27 19:25:55: Worker(47): running job
+2017-07-27 19:25:55: Worker(16): finished job
+2017-07-27 19:25:55: Worker(16): sleeping
+2017-07-27 19:25:55: Worker(50): finished job
+2017-07-27 19:25:55: Worker(50): sleeping
+2017-07-27 19:25:55: Worker(47): finished job
+2017-07-27 19:25:55: Worker(47): sleeping
+2017-07-27 19:25:55: Worker(21): running job
+2017-07-27 19:25:55: Worker(48): running job
+2017-07-27 19:25:55: Worker(17): running job
+2017-07-27 19:25:55: Worker(46): running job
+2017-07-27 19:25:55: Worker(49): running job
+2017-07-27 19:25:55: Worker(46): finished job
+2017-07-27 19:25:55: Worker(46): sleeping
+2017-07-27 19:25:55: Worker(17): finished job
+2017-07-27 19:25:55: Worker(17): sleeping
+2017-07-27 19:25:55: Worker(48): finished job
+2017-07-27 19:25:55: Worker(48): sleeping
+2017-07-27 19:25:55: Worker(21): finished job
+2017-07-27 19:25:55: Worker(21): sleeping
+2017-07-27 19:25:55: Worker(49): finished job
+2017-07-27 19:25:55: Worker(49): sleeping
+2017-07-27 19:25:55: Worker(19): running job
+2017-07-27 19:25:55: Worker(19): finished job
+2017-07-27 19:25:55: Worker(19): sleeping
+2017-07-27 19:25:55: Worker(20): running job
+2017-07-27 19:25:55: Worker(22): running job
+2017-07-27 19:25:55: Worker(20): finished job
+2017-07-27 19:25:55: Worker(20): sleeping
+2017-07-27 19:25:55: Worker(22): finished job
+2017-07-27 19:25:55: Worker(22): sleeping
+2017-07-27 19:25:55: Worker(6): running job
+2017-07-27 19:25:55: Worker(26): running job
+2017-07-27 19:25:55: Worker(25): running job
+2017-07-27 19:25:55: Worker(24): running job
+2017-07-27 19:25:55: Worker(25): finished job
+2017-07-27 19:25:55: Worker(25): sleeping
+2017-07-27 19:25:55: Worker(26): finished job
+2017-07-27 19:25:55: Worker(26): sleeping
+2017-07-27 19:25:55: Worker(6): finished job
+2017-07-27 19:25:55: Worker(6): sleeping
+2017-07-27 19:25:55: Worker(24): finished job
+2017-07-27 19:25:55: Worker(24): sleeping
+2017-07-27 19:25:55: Worker(23): running job
+2017-07-27 19:25:55: Worker(23): finished job
+2017-07-27 19:25:55: Worker(23): sleeping
+2017-07-27 19:25:55: Worker(8): running job
+2017-07-27 19:25:55: Worker(27): running job
+2017-07-27 19:25:55: Worker(8): finished job
+2017-07-27 19:25:55: Worker(8): sleeping
+2017-07-27 19:25:55: Worker(27): finished job
+2017-07-27 19:25:55: Worker(27): sleeping
+2017-07-27 19:25:55: Worker(31): running job
+2017-07-27 19:25:55: Worker(28): running job
+2017-07-27 19:25:55: Worker(31): finished job
+2017-07-27 19:25:55: Worker(31): sleeping
+2017-07-27 19:25:55: Worker(28): finished job
+2017-07-27 19:25:55: Worker(28): sleeping
+2017-07-27 19:25:55: Worker(34): running job
+2017-07-27 19:25:55: Worker(30): running job
+2017-07-27 19:25:55: Worker(32): running job
+2017-07-27 19:25:55: Worker(30): finished job
+2017-07-27 19:25:55: Worker(30): sleeping
+2017-07-27 19:25:55: Worker(34): finished job
+2017-07-27 19:25:55: Worker(34): sleeping
+2017-07-27 19:25:55: Worker(32): finished job
+2017-07-27 19:25:55: Worker(32): sleeping
+2017-07-27 19:25:56: Manager(threshhold 2 to 1): halfing worker count
+2017-07-27 19:25:56: Pool: decreasing workers to 25
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Worker(10): interrupted
+2017-07-27 19:25:56: Worker(39): interrupted
+2017-07-27 19:25:56: Worker(7): interrupted
+2017-07-27 19:25:56: Worker(42): interrupted
+2017-07-27 19:25:56: Worker(1): interrupted
+2017-07-27 19:25:56: Worker(11): interrupted
+2017-07-27 19:25:56: Worker(2): interrupted
+2017-07-27 19:25:56: Worker(15): interrupted
+2017-07-27 19:25:56: Worker(35): interrupted
+2017-07-27 19:25:56: Worker(12): interrupted
+2017-07-27 19:25:56: Worker(36): interrupted
+2017-07-27 19:25:56: Worker(6): interrupted
+2017-07-27 19:25:56: Worker(38): interrupted
+2017-07-27 19:25:56: Worker(14): interrupted
+2017-07-27 19:25:56: Worker(43): interrupted
+2017-07-27 19:25:56: Worker(41): interrupted
+2017-07-27 19:25:56: Worker(37): interrupted
+2017-07-27 19:25:56: Worker(44): interrupted
+2017-07-27 19:25:56: Worker(33): interrupted
+2017-07-27 19:25:56: Worker(40): interrupted
+2017-07-27 19:25:56: Worker(29): interrupted
+2017-07-27 19:25:56: Worker(13): interrupted
+2017-07-27 19:25:56: Worker(4): interrupted
+2017-07-27 19:25:56: Worker(9): interrupted
+2017-07-27 19:25:56: Worker(3): interrupted
+2017-07-27 19:25:56: Worker(5): interrupted
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Removing worker
+2017-07-27 19:25:56: Pool: workers decreased to 24
+2017-07-27 19:26:01: Manager(threshhold 1 to 0): halfing worker count
+2017-07-27 19:26:01: Pool: decreasing workers to 12
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Worker(25): interrupted
+2017-07-27 19:26:01: Worker(18): interrupted
+2017-07-27 19:26:01: Worker(23): interrupted
+2017-07-27 19:26:01: Worker(21): interrupted
+2017-07-27 19:26:01: Worker(16): interrupted
+2017-07-27 19:26:01: Worker(17): interrupted
+2017-07-27 19:26:01: Worker(8): interrupted
+2017-07-27 19:26:01: Worker(19): interrupted
+2017-07-27 19:26:01: Worker(22): interrupted
+2017-07-27 19:26:01: Worker(20): interrupted
+2017-07-27 19:26:01: Worker(27): interrupted
+2017-07-27 19:26:01: Worker(24): interrupted
+2017-07-27 19:26:01: Worker(26): interrupted
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Removing worker
+2017-07-27 19:26:01: Pool: workers decreased to 11
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection due to timeout
+2017-07-27 19:26:04: Connection closed
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:04: Removing connection
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:05: Removing connection due to timeout
+2017-07-27 19:26:05: Connection closed
+2017-07-27 19:26:05: Removing connection
+2017-07-27 19:26:06: Manager(threshhold 0): halfing worker count
+2017-07-27 19:26:06: Pool: decreasing workers to 6
+2017-07-27 19:26:06: Removing worker
+2017-07-27 19:26:06: Worker(28): interrupted
+2017-07-27 19:26:06: Worker(30): interrupted
+2017-07-27 19:26:06: Worker(31): interrupted
+2017-07-27 19:26:06: Worker(34): interrupted
+2017-07-27 19:26:06: Worker(45): interrupted
+2017-07-27 19:26:06: Worker(32): interrupted
+2017-07-27 19:26:06: Removing worker
+2017-07-27 19:26:06: Removing worker
+2017-07-27 19:26:06: Removing worker
+2017-07-27 19:26:06: Removing worker
+2017-07-27 19:26:06: Removing worker
+2017-07-27 19:26:06: Pool: workers decreased to 5
+2017-07-27 19:26:11: Manager(threshhold 0): halfing worker count
+2017-07-27 19:26:11: Pool: not decreasing workers below minimum
+2017-07-27 19:26:16: Manager(threshhold 0): halfing worker count
+2017-07-27 19:26:16: Pool: not decreasing workers below minimum
+2017-07-27 19:26:21: Manager(threshhold 0): halfing worker count
+2017-07-27 19:26:21: Pool: not decreasing workers below minimum
+2017-07-27 19:26:24: Server should be cleaned up connections and back to minimum workers
+2017-07-27 19:26:24: Interrupting server
+2017-07-27 19:26:24: Joining server
+2017-07-27 19:26:24: Server loop stopping
+2017-07-27 19:26:24: Worker(47): interrupted
+2017-07-27 19:26:24: Worker(50): interrupted
+2017-07-27 19:26:24: Worker(49): interrupted
+2017-07-27 19:26:24: Worker(48): interrupted
+2017-07-27 19:26:24: Worker(46): interrupted
+2017-07-27 19:26:24: Server loop ended
+2017-07-27 19:26:24: Closing server
+2017-07-27 19:26:24: Server closed
+2017-07-27 19:26:24: Ending TestClientLoad

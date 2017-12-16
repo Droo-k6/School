@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ShopMaster.master.cs" Inherits="ShopMaster" %>
+
+<link rel="stylesheet" href="StyleSheet.css" media="screen" />
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>
+		<asp:Literal runat="server" Text="Keiths Autos" />
+		<asp:ContentPlaceHolder id="titleContent" runat="server" /> 
+	</title>
+</head>
+<body>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+	<noscript>Javascript is required</noscript>
+
+	<form id="wrapper" runat="server" class="wrapper" >
+
+		<div id="bannerLeft" runat="server" class="bannerLeft" ></div>
+
+		<div id="contentWrapper" runat="server" class="contentWrapper" >
+
+			<div id="content" runat="server" class="contentArea" >
+
+				<asp:Image ID="ImgBanner" runat="server"  ImageUrl="./img/banner.jpg" ImageAlign="Right" CssClass="bannerMain" />
+
+				<section class="ButtonNavRow" runat="server">
+					<asp:Button ID="ButtonBrowse" runat="server" CssClass="NavButton" Text="Browse"  PostBackUrl="./Browse.aspx" />
+					<asp:Button ID="ButtonCart" runat="server" CssClass="NavButton" Text="Cart" PostBackUrl="./Cart.aspx" />
+				</section>
+
+				<div id="contentAreaWrapper" runat="server" class="contentAreaWrapper" >
+					<asp:ScriptManager ID="scriptManager" runat="server" />
+					<asp:ContentPlaceHolder ID="contentPlaceHolderArea" runat="server"></asp:ContentPlaceHolder>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

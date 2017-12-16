@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ShopMaster.master.cs" Inherits="ShopMaster" %>
+
+<link rel="stylesheet" href="StyleSheet.css" media="screen" />
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="wrapper" runat="server" class="wrapper" >
+
+		<div id="bannerTop" runat="server" class="bannerTop" ></div>
+		<div id="bannerLeft" runat="server" class="bannerLeft" ></div>
+
+		<div id="contentWrapper" runat="server" class="contentWrapper" >
+
+			<div id="content" runat="server" class="contentArea" >
+
+				<asp:Image ID="ImgBanner" runat="server"  ImageUrl="./img/banner.jpg" ImageAlign="Right" />
+
+				<section class="ButtonNavRow" runat="server">
+					<asp:Button ID="ButtonBrowse" runat="server" CssClass="NavButton" Text="Browse"  PostBackUrl="./Browse.aspx" />
+					<asp:Button ID="ButtonCart" runat="server" CssClass="NavButton" Text="Cart" PostBackUrl="./Cart.aspx" />
+				</section>
+
+				<div id="contentAreaWrapper" runat="server" class="contentAreaWrapper" >
+					<asp:ContentPlaceHolder ID="contentPlaceHolderArea" runat="server"></asp:ContentPlaceHolder>
+				</div>
+			</div>
+		</div>
+	</form>
+</body>
+</html>

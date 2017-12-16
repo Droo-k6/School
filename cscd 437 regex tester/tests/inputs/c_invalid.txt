@@ -1,0 +1,15 @@
+@help.org
+a@b
+a@..
+..A@eg.org
+..A@eg.org..
+A@eg.org..
+AA@example..org
+ABC@.edu.org
+ABC@ed!.org
+ABC@ed!a.org
+ABC@.edu.org.
+ABC@edu.org.
+A_B_C@eg.net
+ABC@e_g.net
+ABC@eg.ne_t

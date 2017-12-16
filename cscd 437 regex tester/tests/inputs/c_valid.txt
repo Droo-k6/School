@@ -1,0 +1,10 @@
+hi@example.com
+jdoe@ex.org
+johnDoe@asd.ex.org
+marysue@gmail.com
+Doejane@eagles.ewu.edu
+doe2@example.org
+3doe2@eg.net
+33@mail.edu
+aa@3.mail
+abc@3.4

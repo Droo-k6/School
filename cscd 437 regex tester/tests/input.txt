@@ -1,0 +1,835 @@
+a
+123 456789
+a
+12345 6789
+a
+123-456789
+a
+12345-6789
+a
+123-45 6789
+a
+123 45-6789
+a
+9876 54 321
+a
+123 456789
+a
+12345 6789
+a
+123-456789
+a
+12345-6789
+a
+12a-8a-12a1q
+a
+a123-45-6789a
+a
+abc-de-fghh
+a
+abcdefghh
+a
+abc de-fghh
+a
+abc-de fghh
+a
+abc de fghh
+a
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+a
+aaaaaa 123-45-6789 aaaaaaa
+a
+123-45-6789 aaaaaaa
+a
+aaaaaa 123-45-6789
+a
+aaaaaa123-45-6789aaaaaaa
+a
+aaaaaa123-45-6789 aaaaaaa
+a
+aaaaaa 123-45-6789aaaaaaa
+a
+123-45-6789
+a
+987-65-4578
+a
+123 45 6789
+a
+987 65 4321
+a
+123456789
+a
+987654321
+b
+012 345-6789
+b
+012-345 6789
+b
+012-3456789
+b
+012345-6789
+b
+012 3456789
+b
+012345 6789
+b
+0123456789
+b
+(012)3456789
+b
+(012) 3456789
+b
+(012)-3456789
+b
+aaaaaaaaa012-345-6789aaaaaaaaaaa
+b
+aaaaaaaaa 012-345-6789 aaaaaaaaaaa
+b
+aaaaaaaaa 012-345-6789aaaaaaaaaaa
+b
+aaaaaaaaa-012-345-6789-aaaaaaaaaaa
+b
+(abc)defabcd
+b
+(abc)def-abcd
+b
+(abc) def abcd
+b
+(abc)-def-abcd
+b
+(abc) defabcd
+b
+(abc)-defabcd
+b
+012-345-6789
+b
+012 345 6789
+b
+(012)345-6789
+b
+(012)345 6789
+b
+(012) 345-6789
+b
+(012)-345-6789
+b
+(012) 345 6789
+c
+@help.org
+c
+a@b
+c
+a@..
+c
+..A@eg.org
+c
+..A@eg.org..
+c
+A@eg.org..
+c
+AA@example..org
+c
+ABC@.edu.org
+c
+ABC@ed!.org
+c
+ABC@ed!a.org
+c
+ABC@.edu.org.
+c
+ABC@edu.org.
+c
+A_B_C@eg.net
+c
+ABC@e_g.net
+c
+ABC@eg.ne_t
+c
+hi@example.com
+c
+jdoe@ex.org
+c
+johnDoe@asd.ex.org
+c
+marysue@gmail.com
+c
+Doejane@eagles.ewu.edu
+c
+doe2@example.org
+c
+3doe2@eg.net
+c
+33@mail.edu
+c
+aa@3.mail
+c
+abc@3.4
+d
+aaaaaaaaaaaaaaa
+d
+sadd, dwwaasd, dwee..eeea
+d
+, 029, 111kkk2k
+d
+1111, 111, 1 1 1 1
+d
+1111aaa, aaa, aaa11111
+d
+1111 aaa, aaa, aaa 11111
+d
+1111 aaa,aaa,aaa 11111
+d
+1111aaa,aaa,aaa11111
+d
+abcd, efg1, a b c
+d
+abc2, efg, a b c
+d
+abc, efg, a 2 c
+d
+a, b, cc
+d
+a,b,cc
+d
+,,
+d
+,, A
+d
+A,, B
+d
+john, doe, j
+d
+john, doe, j h
+d
+mitch, mgee, m
+d
+dove, bird, w
+d
+alex, bald, k l a
+d
+alec,duRd,h
+d
+alEc,durd, h
+d
+alec, durd,H
+d
+a, b, c
+e
+120-12-1221
+e
+012-10-3145
+e
+aaa11-11-1234aaaa
+e
+aaa 11-11-1234 aaaa
+e
+12-12-2012a
+e
+15-34-0010
+e
+6-50-2341
+e
+06-99-3413
+e
+90-03-2095
+e
+12-00-2458
+e
+00-12-4287
+e
+6-50-2341
+e
+06-99-3413
+e
+a12-12-2012
+e
+12-bb-2015
+e
+12-21-201a
+e
+1o-20-2001
+e
+9-b-2001
+e
+--
+e
+
+e
+--2002
+e
+10--2002
+e
+10-11-
+e
+10-09
+e
+19-12-4587
+e
+13-30-5869
+e
+11-33-5869
+e
+2-29-2019
+e
+4-31-2016
+e
+6-31-2015
+e
+01-20-1999
+e
+1-2-1999
+e
+1-1-1900
+e
+01-01-0001
+e
+12-31-9999
+e
+1-31-1951
+e
+12-1-8345
+e
+11-01-3130
+e
+02-5-3103
+e
+10-29-2017
+e
+2-29-2020
+e
+02-29-2016
+e
+2-29-2012
+f
+12th E Coal RD
+f
+12th E Coal road
+f
+12th Coal road
+f
+12 Coal road
+f
+|| 12 Coal rd aa
+f
+||12 Coal rd aa
+f
+|| 12 Coal rdaa
+f
+12th Coal RD
+f
+12tCoal RD
+f
+12tCoal 
+f
+12tCoal 
+f
+12 North RD
+f
+012 Albert AVE
+f
+30 Maple ST
+f
+30 Maple st
+f
+9 Main BLVD
+f
+9 Main blvd
+f
+9 Main bLvD
+f
+9 Main BlvD
+g
+AZI AB 14523
+g
+AZI, A1 14523
+g
+A2I, AB 14523
+g
+AYI AB, 14523
+g
+AYI, AB, 14523
+g
+AYI, AB 124523
+g
+AYI, AB 1a4523
+g
+aaaaAYI, AB 14523aaaa
+g
+aaaa AYI, AB 14523 aaaa
+g
+Kumin, AR, 44546-4587
+g
+Kumin AR, 44546-4587
+g
+Kumin A9 44546-4587
+g
+Kumin A 44546-4587
+g
+Kum1n AZ 44546-4587
+g
+Kumon AZ 4546-4587
+g
+Kumon AZ 4a546-4587
+g
+Kumon AZ 44546-a587
+g
+Kumon AZ 44546_4587
+g
+Kumon AZ 44546, 4587
+g
+Kumon AZ 44546 4587
+g
+aaaaaaaaaKumon AZ 44546-4587aaaaaaa
+g
+aaaaaaaaa Kumon AZ 44546-4587aaaaaaa
+g
+aaaaaaaaa Kumon AZ 44546-4587 aaaaaaa
+g
+aaaaaaaaaKumon AZ 44546-4587 aaaaaaa
+g
+Azi, AL 95544
+g
+Olead, AK 00120
+g
+Port, AZ 14147
+g
+Kumin, AR 44546-4587
+g
+Joles, CA 65253-8545
+h
+-0000
+h
+-00:00
+h
+-0000:00
+h
+-00:00:00
+h
+-0000-
+h
+-00:00-
+h
+-0000:00-
+h
+-00:00:00-
+h
+122125
+h
+23-59
+h
+23-59
+h
+2359-59
+h
+23:59-59
+h
+:23:59
+h
+:23:59
+h
+:2359:59
+h
+:23:59:59
+h
+2460
+h
+2471
+h
+9999
+h
+99:99
+h
+99:99:99
+h
+9999:99
+h
+aaaa:aa
+h
+1221:9
+h
+1221:90
+h
+0000
+h
+00:00
+h
+0000:00
+h
+00:00:00
+h
+2359
+h
+23:59
+h
+2359:59
+h
+23:59:59
+i
+123.4
+i
+$123.4
+i
+$123,04
+i
+$123.04,04
+i
+$123.04.04
+i
+$124.0a
+i
+$12a.04
+i
+$124 04
+i
+12 3 4.05
+i
+$124/04
+i
+aaaa$124.04aaa
+i
+aaaa $124.04 aaa
+i
+aaaa $124.04aaa
+i
+aaaa$124.04 aaa
+i
+$123 456 789.01
+i
+$123,456789.01
+i
+$123,45,6789.01
+i
+$1,234,567,89.01
+i
+$0123,456,789.01
+i
+$.5
+i
+$123
+i
+$123.00
+i
+$123.99
+i
+$023.99
+i
+$000,023.99
+i
+$000,000.00
+i
+$000,000,000,000.00
+i
+$00,000,000,000.00
+i
+$0,000,000,000.00
+i
+$9,000,000,009.09
+i
+$9,000,000,009.90
+i
+$9,000,000,009
+i
+$0
+i
+$00
+i
+$000
+i
+$0,000
+i
+$0.09
+i
+$00.10
+i
+$000.20
+i
+$0,000.40
+i
+$.00
+i
+$.99
+i
+$.50
+i
+$10000
+i
+$10000.50
+i
+$10000.00
+i
+$10000.99
+j
+.com
+j
+ex.
+j
+.example.com
+j
+htt://www.com
+j
+https://example..com
+j
+https://exampl--e.com
+j
+https://example-.com
+j
+https://-example.com
+j
+https://example.c--om
+j
+https://example.com-
+j
+https://example.com-.
+j
+https://example.com.
+j
+https://exampl--e.com
+j
+https://exam..pl-e.com
+j
+https://exam.pl-e.
+j
+https://example-.com
+j
+http://example-.com
+j
+example..com
+j
+exampl--e.com
+j
+example-.com
+j
+-example.com
+j
+example.c--om
+j
+example.com-
+j
+example.com-.
+j
+example.com.
+j
+exampl--e.com
+j
+exam..pl-e.com
+j
+exam.pl-e.
+j
+example-.com
+j
+-example-.com
+j
+.example-.com
+j
+example.c--m
+j
+com
+j
+example
+j
+https://
+j
+http://
+j
+htp://example.org
+j
+example.com
+j
+http://example.com
+j
+https://example.com
+j
+https://www.example.com
+j
+http://www.example.com
+j
+www.example.com
+j
+www.stub.example.com
+j
+stub.example.com
+j
+stub1.exampl3.com
+j
+stub1.example-ea.com
+j
+stub-example-65.com
+j
+www.stub-example-65.com
+j
+http://www.stub-example-65.com
+j
+https://www.stub-example-65.com
+j
+http://www.stub.example-65.com
+j
+https://www.stub.example-65.com
+j
+example.c-m
+j
+example.c0m
+j
+exam.pl-e
+j
+example.cm
+j
+www.com
+j
+www.example
+j
+http://www.com
+j
+https://www.com
+j
+a.b
+j
+https://exam.pl-e
+k
+abcdefghijklmnop
+k
+aA4!a
+k
+aA4!aaaaaaaaaaaaaa
+k
+aA4!abcedefyygh
+k
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+k
+1111111111111111111111111111111111
+k
+222222222222222222222222222222222222
+k
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+k
+333333333333333333333333333
+k
+#######################
+k
+$$$$$$$$$$$$$$$$$$$$$$$$$$$
+k
+444444444444444444444444
+k
+5555555555555555555
+k
+%%%%%%%%%%%%
+k
+^^^^^^^^^^^^^^^^^
+k
+66666666666666
+k
+&&&&&&&&&&&&&&&&&&&&&&&
+k
+777777777777777777
+k
+*******************
+k
+888888888888888
+k
+9999999999999999
+k
+(((((((((((((((((((
+k
+))))))))))))
+k
+000000000000
+k
+AAAAAAAAAAAAAAA
+k
+BBBBBBBBBBBBBB
+k
+ABa124525631553
+k
+Aa!!!!!!!!!!!!!!!
+k
+Aa111111111111111
+k
+aA4!a aA4!a aA4!a
+k
+[bc123ABCD
+k
+4bcDefgHi!
+k
+4bcDefgHi?
+k
+4bcDefgHi'
+k
+4bcDefgHi"
+k
+4bcDefgHi,
+k
+4bcDefgHi]
+k
+4bcDefgHi[
+k
+4bcDefgHi<
+k
+4bcDefgHi>
+k
+4bcDefgHi;
+k
+4bcDefgHi:
+k
+4bcDefgHi{
+k
+4bcDefgHi}
+k
+4bcDefgHi(
+k
+4bcDefgHi)
+k
+4bcDefgHi-
+k
+4bcDefgHi_
+k
+4bcDefgHi@
+k
+4bcDefgHi#
+k
+4bcDefgHi$
+k
+4bcDefgHi%
+k
+4bcDefgHi^
+k
+4bcDefgHi&
+k
+4bcDefgHi*
+k
+4bcDefgHi/
+k
+4bcDefgHi\
+k
+4bcDefgHi|
+k
+4bcDefgHi+
+k
+4bcDefgHi=
+k
+BcDefgHi=aW3am3a0m109ap3lLam3
+k
+<>!+#_#AAAAa4
+l
+io
+l
+lion
+l
+aslion
+l
+4sion
+l
+ion45
+l
+44ion
+l
+ion
+l
+llion
+l
+alion
+l
+abstraction
+l
+ABOMINATION
+l
+tiglion
+q

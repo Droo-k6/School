@@ -1,0 +1,25 @@
+123 456789
+12345 6789
+123-456789
+12345-6789
+123-45 6789
+123 45-6789
+9876 54 321
+123 456789
+12345 6789
+123-456789
+12345-6789
+12a-8a-12a1q
+a123-45-6789a
+abc-de-fghh
+abcdefghh
+abc de-fghh
+abc-de fghh
+abc de fghh
+aaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaa 123-45-6789 aaaaaaa
+123-45-6789 aaaaaaa
+aaaaaa 123-45-6789
+aaaaaa123-45-6789aaaaaaa
+aaaaaa123-45-6789 aaaaaaa
+aaaaaa 123-45-6789aaaaaaa

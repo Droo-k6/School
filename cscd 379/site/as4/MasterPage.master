@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<!-- using Bootstrap jumbotron narrow and navbar examples -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" id="headMaster" >
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="Lab description"/>
+	<meta name="author" content="Lab author"/>
+	<link rel="icon" href="./assets/img/favicon.ico"/>
+
+	<!-- Bootstrap core CSS -->
+	<link href="./dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+	<!-- Custom styles for this template -->
+	<link href="./jumbotron-narrow.css" rel="stylesheet"/>
+
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+	<!-- title that can be appended -->
+	<title>
+		<asp:Literal runat="server" Text="Mobile Development" />
+		<asp:ContentPlaceHolder id="titleContent" runat="server" /> 
+	</title>
+</head>
+<body>
+    <form id="formBody" runat="server">
+
+		<div class="container">
+
+			<!-- Static navbar -->
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- navbar header -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<!-- creates collapsed icon -->
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Mobile Development</a>
+					</div>
+					<!-- navbar contents -->
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav nav-pills pull-right">
+							<li class="active"><a href="./Default.aspx">Home</a></li>
+							<li><a href="./About.aspx">About</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div><!--/.container-fluid -->
+			</nav>
+
+			<asp:ContentPlaceHolder id="bodyContent" runat="server" />
+
+			<footer class="footer">
+				<p>&copy; 2016 Company, Inc.</p>
+			</footer>
+		</div> <!-- /container -->
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+		<script src="./dist/js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+    </form>
+	<script>
+		// sets navbar active
+		// http://stackoverflow.com/questions/17984553/how-to-set-navbar-item-as-active-when-user-selects-it
+		$(document).ready(function () {
+			var url = window.location;
+			$('.navbar .nav').find('.active').removeClass('active');
+			$('.navbar .nav li a').each(function () {
+				if (this.href == url) {
+					$(this).parent().addClass('active');
+				}
+			});
+		});
+	</script>
+</body>
+</html>

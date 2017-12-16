@@ -1,0 +1,20 @@
+012 345-6789
+012-345 6789
+012-3456789
+012345-6789
+012 3456789
+012345 6789
+0123456789
+(012)3456789
+(012) 3456789
+(012)-3456789
+aaaaaaaaa012-345-6789aaaaaaaaaaa
+aaaaaaaaa 012-345-6789 aaaaaaaaaaa
+aaaaaaaaa 012-345-6789aaaaaaaaaaa
+aaaaaaaaa-012-345-6789-aaaaaaaaaaa
+(abc)defabcd
+(abc)def-abcd
+(abc) def abcd
+(abc)-def-abcd
+(abc) defabcd
+(abc)-defabcd

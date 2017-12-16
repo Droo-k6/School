@@ -1,0 +1,125 @@
+
+...>java -cp bin cscd467.hw45.TestCommands 
+2017-07-27 19:25:06: Starting TestCommands
+2017-07-27 19:25:06: Setting up test server("TestClientLoad") on port 9898, 2 second worker delay
+2017-07-27 19:25:06: Server created
+2017-07-27 19:25:06: Starting server loop
+2017-07-27 19:25:06: Worker created
+2017-07-27 19:25:06: Worker created
+2017-07-27 19:25:06: Worker created
+2017-07-27 19:25:06: Worker created
+2017-07-27 19:25:06: Worker created
+2017-07-27 19:25:06: Pool: workers increased to 5
+2017-07-27 19:25:06: Adding new connection
+2017-07-27 19:25:06: Worker(5): running job
+2017-07-27 19:25:06: Worker(5): finished job
+2017-07-27 19:25:06: Command("add,1,2"), received("3"), correct result(true)
+2017-07-27 19:25:06: Worker(5): sleeping
+2017-07-27 19:25:06: Worker(1): running job
+2017-07-27 19:25:06: Worker(1): finished job
+2017-07-27 19:25:06: Command("ADD,0,100"), received("100"), correct result(true)
+2017-07-27 19:25:06: Worker(1): sleeping
+2017-07-27 19:25:06: Worker(4): running job
+2017-07-27 19:25:06: Worker(4): finished job
+2017-07-27 19:25:06: Worker(4): sleeping
+2017-07-27 19:25:06: Command("adD,3,4"), received("7"), correct result(true)
+2017-07-27 19:25:06: Worker(2): running job
+2017-07-27 19:25:06: Worker(2): finished job
+2017-07-27 19:25:06: Command("ADD ,1,1"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:06: Worker(2): sleeping
+2017-07-27 19:25:06: Worker(3): running job
+2017-07-27 19:25:06: Worker(3): finished job
+2017-07-27 19:25:06: Worker(3): sleeping
+2017-07-27 19:25:06: Command("ADD"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:08: Worker(5): running job
+2017-07-27 19:25:08: Worker(5): finished job
+2017-07-27 19:25:08: Worker(5): sleeping
+2017-07-27 19:25:08: Command("ADD,1,a1"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:08: Worker(1): running job
+2017-07-27 19:25:08: Worker(1): finished job
+2017-07-27 19:25:08: Worker(1): sleeping
+2017-07-27 19:25:08: Command("sub,1,2"), received("-1"), correct result(true)
+2017-07-27 19:25:08: Worker(4): running job
+2017-07-27 19:25:08: Worker(4): finished job
+2017-07-27 19:25:08: Worker(4): sleeping
+2017-07-27 19:25:08: Command("SUB,23,10"), received("13"), correct result(true)
+2017-07-27 19:25:08: Worker(2): running job
+2017-07-27 19:25:08: Worker(2): finished job
+2017-07-27 19:25:08: Worker(2): sleeping
+2017-07-27 19:25:08: Command("SuB,5,5"), received("0"), correct result(true)
+2017-07-27 19:25:08: Worker(3): running job
+2017-07-27 19:25:08: Worker(3): finished job
+2017-07-27 19:25:08: Worker(3): sleeping
+2017-07-27 19:25:08: Command("SUB ,1,1"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:10: Worker(5): running job
+2017-07-27 19:25:10: Worker(5): finished job
+2017-07-27 19:25:10: Worker(5): sleeping
+2017-07-27 19:25:10: Command("SUB"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:10: Worker(1): running job
+2017-07-27 19:25:10: Worker(1): finished job
+2017-07-27 19:25:10: Worker(1): sleeping
+2017-07-27 19:25:10: Command("SUB,-1,a"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:10: Worker(4): running job
+2017-07-27 19:25:10: Worker(4): finished job
+2017-07-27 19:25:10: Worker(4): sleeping
+2017-07-27 19:25:10: Command("mul,1,2"), received("2"), correct result(true)
+2017-07-27 19:25:10: Worker(2): running job
+2017-07-27 19:25:10: Worker(2): finished job
+2017-07-27 19:25:10: Worker(2): sleeping
+2017-07-27 19:25:10: Command("MUL,0,100"), received("0"), correct result(true)
+2017-07-27 19:25:10: Worker(3): running job
+2017-07-27 19:25:10: Worker(3): finished job
+2017-07-27 19:25:10: Worker(3): sleeping
+2017-07-27 19:25:10: Command("mUl,3,4"), received("12"), correct result(true)
+2017-07-27 19:25:11: Manager(threshhold 0): halfing worker count
+2017-07-27 19:25:11: Pool: not decreasing workers below minimum
+2017-07-27 19:25:12: Worker(5): running job
+2017-07-27 19:25:12: Worker(5): finished job
+2017-07-27 19:25:12: Worker(5): sleeping
+2017-07-27 19:25:12: Command("MUL ,1,1"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:12: Worker(1): running job
+2017-07-27 19:25:12: Worker(1): finished job
+2017-07-27 19:25:12: Worker(1): sleeping
+2017-07-27 19:25:12: Command("mul"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:12: Worker(4): running job
+2017-07-27 19:25:12: Worker(4): finished job
+2017-07-27 19:25:12: Worker(4): sleeping
+2017-07-27 19:25:12: Command("MUL,b,1"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:12: Worker(2): running job
+2017-07-27 19:25:12: Worker(2): finished job
+2017-07-27 19:25:12: Worker(2): sleeping
+2017-07-27 19:25:12: Command("div,4,2"), received("2.0"), correct result(true)
+2017-07-27 19:25:12: Worker(3): running job
+2017-07-27 19:25:12: Worker(3): finished job
+2017-07-27 19:25:12: Worker(3): sleeping
+2017-07-27 19:25:12: Command("DIV,10,4"), received("2.5"), correct result(true)
+2017-07-27 19:25:14: Worker(5): running job
+2017-07-27 19:25:14: Worker(5): finished job
+2017-07-27 19:25:14: Worker(5): sleeping
+2017-07-27 19:25:14: Command("dIv,3,3"), received("1.0"), correct result(true)
+2017-07-27 19:25:14: Worker(1): running job
+2017-07-27 19:25:14: Worker(1): finished job
+2017-07-27 19:25:14: Worker(1): sleeping
+2017-07-27 19:25:14: Command("div ,1,1"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:14: Worker(4): running job
+2017-07-27 19:25:14: Worker(4): finished job
+2017-07-27 19:25:14: Worker(4): sleeping
+2017-07-27 19:25:14: Command("div"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:14: Worker(2): running job
+2017-07-27 19:25:14: Worker(2): finished job
+2017-07-27 19:25:14: Command("div,1,a1"), received("Invalid command"), correct result(true)
+2017-07-27 19:25:14: Connection closed
+2017-07-27 19:25:14: Worker(2): sleeping
+2017-07-27 19:25:14: Server loop stopping
+2017-07-27 19:25:14: Worker(3): running job
+2017-07-27 19:25:14: Worker(5): interrupted
+2017-07-27 19:25:14: Worker(1): interrupted
+2017-07-27 19:25:14: Worker(4): interrupted
+2017-07-27 19:25:14: Worker(2): interrupted
+2017-07-27 19:25:14: Worker(3): finished job
+2017-07-27 19:25:14: Worker(3): sleeping
+2017-07-27 19:25:14: Worker(3): interrupted
+2017-07-27 19:25:14: Server loop ended
+2017-07-27 19:25:14: Closing server
+2017-07-27 19:25:14: Server closed
+2017-07-27 19:25:14: Ending TestCommands

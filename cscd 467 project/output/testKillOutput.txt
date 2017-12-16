@@ -1,0 +1,30 @@
+
+...>java -cp bin cscd467.hw45.TestKill 
+2017-07-27 19:24:53: Starting TestKill
+2017-07-27 19:24:53: Setting up test server("TestClientLoad") on port 9898, 2 second worker delay
+2017-07-27 19:24:53: Server created
+2017-07-27 19:24:53: Starting server loop
+2017-07-27 19:24:53: Connection closed
+2017-07-27 19:24:53: Server still running
+2017-07-27 19:24:53: Worker created
+2017-07-27 19:24:53: Worker created
+2017-07-27 19:24:53: Worker created
+2017-07-27 19:24:53: Worker created
+2017-07-27 19:24:53: Worker created
+2017-07-27 19:24:53: Pool: workers increased to 5
+2017-07-27 19:24:53: Adding new connection
+2017-07-27 19:24:53: Worker(5): running job
+2017-07-27 19:24:53: Worker(5): finished job
+2017-07-27 19:24:53: Worker(5): sleeping
+2017-07-27 19:24:53: Server loop stopped
+2017-07-27 19:24:53: Server loop stopping
+2017-07-27 19:24:53: Worker(1): interrupted
+2017-07-27 19:24:53: Worker(2): interrupted
+2017-07-27 19:24:53: Worker(3): interrupted
+2017-07-27 19:24:53: Worker(5): interrupted
+2017-07-27 19:24:53: Worker(4): interrupted
+2017-07-27 19:24:53: Server loop ended
+2017-07-27 19:24:53: Closing server
+2017-07-27 19:24:53: Server closed
+2017-07-27 19:24:54: Server ended (killed most likely)
+2017-07-27 19:24:54: Ending TestKill
